@@ -1,0 +1,5163 @@
+
+
+.Dropdown_Container{
+  height: 0;
+}
+
+
+.PEG-vectors-in {
+  background-color: #176b87; /* Your existing background color */
+  background-size: cover; /* Adjust as needed */
+  background-position: center; /* Adjust as needed */
+  background-repeat: no-repeat; /* Adjust as needed */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.PEG-vectors-in .div {
+  background-color: #176b87;
+  width: 1920px;
+  height: 15350px;
+  position: relative;
+}
+
+.PEG-vectors-in .overlap {
+  position: absolute;
+  width: 100%;
+  height: 5910px;
+  top: -115px;
+  left: 0;
+}
+
+.overlap .BG-overlay img {
+  height: 1080px;
+  top: 115px;
+  position: fixed;
+  width: 1920px;
+  left: 0;
+  background-repeat: no-repeat;
+}
+
+.PEG-vectors-in .vectors {
+  position: absolute;
+  width: 1149px;
+  height: 4673px;
+  top: 1237px;
+  left: 289px;
+}
+
+.PEG-vectors-in .note {
+  position: absolute;
+  width: 1006px;
+  height: 1095px;
+  top: 3578px;
+  left: 0;
+}
+
+.PEG-vectors-in .overlap-group {
+  position: relative;
+  width: 1020px;
+  height: 1115px;
+  top: -10px;
+  left: -10px;
+  border-radius: 50px;
+  border: 10px dashed;
+  border-color: #00000080;
+}
+
+.PEG-vectors-in .p {
+  position: absolute;
+  width: 300px;
+  height: 45px;
+  top: 999px;
+  left: 109px;
+}
+
+.PEG-vectors-in .overlap-group-2 {
+  position: relative;
+  width: 296px;
+  height: 45px;
+}
+
+.PEG-vectors-in .text-wrapper {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  font-family: var(--content-font-family);
+  font-weight: var(--content-font-weight);
+  color: #ffffff;
+  font-size: var(--content-font-size);
+  letter-spacing: var(--content-letter-spacing);
+  line-height: var(--content-line-height);
+  font-style: var(--content-font-style);
+}
+
+.PEG-vectors-in .text-wrapper-2 {
+  position: absolute;
+  top: -5px;
+  left: 263px;
+  font-family: var(--content-font-family);
+  color: #ffffff;
+  font-size: var(--content-font-size);
+  font-weight: var(--content-font-weight);
+  letter-spacing: var(--content-letter-spacing);
+  line-height: var(--content-line-height);
+  font-style: var(--content-font-style);
+}
+
+.PEG-vectors-in .p-2 {
+  position: absolute;
+  width: 930px;
+  top: 554px;
+  left: 70px;
+  font-family: var(--content-font-family);
+  font-weight: var(--content-font-weight);
+  color: #ffffff;
+  font-size: var(--content-font-size);
+  letter-spacing: var(--content-letter-spacing);
+  line-height: var(--content-line-height);
+  font-style: var(--content-font-style);
+}
+
+.PEG-vectors-in .v-note {
+  height: 336px;
+  top: 637px;
+  position: absolute;
+  width: 510px;
+  left: 251px;
+}
+
+.PEG-vectors-in .overlap-2 {
+  position: relative;
+  height: 336px;
+}
+
+.PEG-vectors-in .rectangle {
+  position: absolute;
+  width: 510px;
+  height: 335px;
+  top: 0;
+  left: 0;
+  background-color: #00000080;
+  border-radius: 30px;
+}
+
+.PEG-vectors-in .vector-zero-vector {
+  position: absolute;
+  width: 490px;
+  height: 336px;
+  top: 0;
+  left: 10px;
+  object-fit: cover;
+}
+
+.PEG-vectors-in .magnitude-direction-wrapper {
+  height: 335px;
+  top: 189px;
+  background-color: #00000080;
+  border-radius: 30px;
+  position: absolute;
+  width: 510px;
+  left: 251px;
+}
+
+.PEG-vectors-in .magnitude-direction {
+  position: absolute;
+  width: 488px;
+  height: 335px;
+  top: 0;
+  left: 12px;
+  object-fit: cover;
+}
+
+.PEG-vectors-in .p-3 {
+  position: absolute;
+  width: 930px;
+  top: 109px;
+  left: 70px;
+  font-family: var(--content-font-family);
+  font-weight: var(--content-font-weight);
+  color: #ffffff;
+  font-size: var(--content-font-size);
+  letter-spacing: var(--content-letter-spacing);
+  line-height: var(--content-line-height);
+  font-style: var(--content-font-style);
+}
+
+.PEG-vectors-in .text-wrapper-3 {
+  position: absolute;
+  width: 77px;
+  top: 47px;
+  left: 32px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .example-b {
+  position: absolute;
+  width: 1151px;
+  height: 893px;
+  top: 2615px;
+  left: 0;
+}
+
+.PEG-vectors-in .rectangle-2 {
+  position: absolute;
+  width: 520px;
+  height: 325px;
+  top: 560px;
+  left: 251px;
+}
+
+.PEG-vectors-in .text-wrapper-4 {
+  position: absolute;
+  width: 208px;
+  top: 513px;
+  left: 224px;
+  font-family: var(--content-font-family);
+  font-weight: var(--content-font-weight);
+  color: #ffffff;
+  font-size: var(--content-font-size);
+  letter-spacing: var(--content-letter-spacing);
+  line-height: var(--content-line-height);
+  font-style: var(--content-font-style);
+}
+
+.PEG-vectors-in .rectangle-3 {
+  position: absolute;
+  width: 520px;
+  height: 325px;
+  top: 160px;
+  left: 251px;
+}
+
+.PEG-vectors-in .text-wrapper-5 {
+  position: absolute;
+  width: 208px;
+  top: 113px;
+  left: 224px;
+  font-family: var(--content-font-family);
+  font-weight: var(--content-font-weight);
+  color: #ffffff;
+  font-size: var(--content-font-size);
+  letter-spacing: var(--content-letter-spacing);
+  line-height: var(--content-line-height);
+  font-style: var(--content-font-style);
+}
+
+.PEG-vectors-in .text-wrapper-6 {
+  position: absolute;
+  width: 806px;
+  top: 63px;
+  left: 117px;
+  font-family: var(--content-font-family);
+  font-weight: var(--content-font-weight);
+  color: #ffffff;
+  font-size: var(--content-font-size);
+  letter-spacing: var(--content-letter-spacing);
+  line-height: var(--content-line-height);
+  font-style: var(--content-font-style);
+}
+
+.PEG-vectors-in .example {
+  position: absolute;
+  width: 1145px;
+  height: 43px;
+  top: 0;
+  left: 0;
+  background-color: #053b50;
+}
+
+.PEG-vectors-in .text-wrapper-7 {
+  position: absolute;
+  width: 255px;
+  top: 4px;
+  left: 34px;
+  font-family: var(--example-font-family);
+  font-weight: var(--example-font-weight);
+  color: #ffffff;
+  font-size: var(--example-font-size);
+  letter-spacing: var(--example-letter-spacing);
+  line-height: var(--example-line-height);
+  font-style: var(--example-font-style);
+}
+
+.PEG-vectors-in .in {
+  position: absolute;
+  width: 989px;
+  top: 2435px;
+  left: 106px;
+  font-family: var(--content-font-family);
+  font-weight: var(--content-font-weight);
+  color: #ffffff;
+  font-size: var(--content-font-size);
+  letter-spacing: var(--content-letter-spacing);
+  line-height: var(--content-line-height);
+  font-style: var(--content-font-style);
+}
+
+.PEG-vectors-in .try-it-yourself {
+  width: 1004px;
+  height: 634px;
+  top: 1751px;
+  position: absolute;
+  left: 0;
+}
+
+.PEG-vectors-in .overlap-3 {
+  position: relative;
+  width: 1000px;
+  height: 634px;
+  background-color: #00000080;
+  border-radius: 50px;
+}
+
+.PEG-vectors-in .rectangle-4 {
+  position: absolute;
+  width: 510px;
+  height: 335px;
+  top: 241px;
+  left: 251px;
+  background-color: #d9d9d9;
+}
+
+.PEG-vectors-in .group {
+  position: absolute;
+  width: 512px;
+  height: 72px;
+  top: 145px;
+  left: 253px;
+}
+
+.PEG-vectors-in .overlap-4 {
+  position: absolute;
+  width: 219px;
+  height: 36px;
+  top: 36px;
+  left: 0;
+}
+
+.PEG-vectors-in .rectangle-5 {
+  position: absolute;
+  width: 54px;
+  height: 24px;
+  top: 6px;
+  left: 146px;
+}
+
+.PEG-vectors-in .rectangle-5 input{
+  position: relative;
+  height: 24px;
+  width: 54px;
+  font-family: "DM Sans", Helvetica;
+  z-index: 1;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+.PEG-vectors-in .rectangle-6 {
+  position: absolute;
+  top: 6px;
+  left: 63px;
+}
+
+.PEG-vectors-in .rectangle-6 input {
+  position: relative;
+  height: 24px;
+  width: 54px;
+  font-family: "DM Sans", Helvetica;
+  z-index: 1;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+.PEG-vectors-in .text-wrapper-8 {
+  position: absolute;
+  width: 400px;
+  top: 3px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 28px;
+}
+
+.PEG-vectors-in .text-wrapper-8-1 {
+  position: absolute;
+  width: 400px;
+  top: 3px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 28px;
+  line-height: normal;
+}
+
+.PEG-vectors-in .x-y {
+  left: 81px;
+  font-size: 28px;
+  position: absolute;
+  top: 0;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .button-plot {
+  position: absolute;
+  width: 89px;
+  height: 39px;
+  top: 29px;
+  left: 421px;
+}
+
+.PEG-vectors-in .div-wrapper button {
+  position: relative;
+  width: 87px;
+  height: 39px;
+  background-color: #64ccc5cc;
+  border-radius: 20px;
+  font-size: 23px;
+  font-weight: bold;
+  color: #053b50;
+  border: none;
+}
+
+.PEG-vectors-in .div-wrapper button {
+  position: relative;
+  width: 87px;
+  height: 39px;
+  background-color: #64ccc5cc;
+  border-radius: 20px;
+  font-size: 23px;
+  font-weight: bold;
+  color: #053b50;
+  border: none;
+}
+
+.PEG-vectors-in .text-wrapper-9 {
+  position: absolute;
+  width: 58px;
+  height: 31px;
+  top: 4px;
+  left: 15px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #053b50;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .text-wrapper-10 {
+  position: absolute;
+  top: 90px;
+  left: 106px;
+  font-family: var(--content-font-family);
+  font-weight: var(--content-font-weight);
+  color: #ffffff;
+  font-size: var(--content-font-size);
+  letter-spacing: var(--content-letter-spacing);
+  line-height: var(--content-line-height);
+  font-style: var(--content-font-style);
+}
+
+.PEG-vectors-in .text-wrapper-11 {
+  position: absolute;
+  top: 33px;
+  left: 375px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #d2de32;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .example-a {
+  position: absolute;
+  width: 1151px;
+  height: 884px;
+  top: 817px;
+  left: 0;
+}
+
+.PEG-vectors-in .rectangle-7 {
+  position: absolute;
+  width: 520px;
+  height: 325px;
+  top: 545px;
+  left: 251px;
+}
+
+.PEG-vectors-in .text-wrapper-12 {
+  position: absolute;
+  width: 165px;
+  top: 508px;
+  left: 224px;
+  font-family: var(--content-font-family);
+  font-weight: var(--content-font-weight);
+  color: #ffffff;
+  font-size: var(--content-font-size);
+  letter-spacing: var(--content-letter-spacing);
+  line-height: var(--content-line-height);
+  font-style: var(--content-font-style);
+}
+
+.PEG-vectors-in .rectangle-8 {
+  position: absolute;
+  width: 520px;
+  height: 325px;
+  top: 150px;
+  left: 251px;
+}
+
+.PEG-vectors-in .text-wrapper-13 {
+  position: absolute;
+  width: 129px;
+  top: 113px;
+  left: 224px;
+  font-family: var(--content-font-family);
+  font-weight: var(--content-font-weight);
+  color: #ffffff;
+  font-size: var(--content-font-size);
+  letter-spacing: var(--content-letter-spacing);
+  line-height: var(--content-line-height);
+  font-style: var(--content-font-style);
+}
+
+.PEG-vectors-in .text-wrapper-14 {
+  position: absolute;
+  width: 806px;
+  top: 63px;
+  left: 106px;
+  font-family: var(--content-font-family);
+  font-weight: var(--content-font-weight);
+  color: #ffffff;
+  font-size: var(--content-font-size);
+  letter-spacing: var(--content-letter-spacing);
+  line-height: var(--content-line-height);
+  font-style: var(--content-font-style);
+}
+
+.PEG-vectors-in .overlap-5 {
+  position: absolute;
+  width: 563px;
+  height: 254px;
+  top: 513px;
+  left: 174px;
+}
+
+.PEG-vectors-in .element-space {
+  position: absolute;
+  width: 563px;
+  height: 136px;
+  top: 118px;
+  left: 0;
+}
+
+.PEG-vectors-in .matrix {
+  position: absolute;
+  width: 99px;
+  height: 127px;
+  top: 9px;
+  left: 282px;
+}
+
+.PEG-vectors-in .overlap-group-3 {
+  position: relative;
+  width: 95px;
+  height: 127px;
+}
+
+.PEG-vectors-in .text-wrapper-15 {
+  position: relative;
+  top: 50px;
+  left: 0;
+  font-family: "Dorsa", Helvetica;
+  color: #ffffff;
+  font-size: 96px;
+  white-space: nowrap;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .x-y-z {
+  position: absolute;
+  top: 70px;
+  left: 47px;
+  font-family: var(--formula-font-family);
+  font-weight: var(--formula-font-weight);
+  color: #ffffff;
+  font-size: var(--formula-font-size);
+  letter-spacing: var(--formula-letter-spacing);
+  line-height: var(--formula-line-height);
+  font-style: var(--formula-font-style);
+}
+
+.PEG-vectors-in .text-wrapper-16 {
+  top: 55px;
+  left: 246px;
+  font-size: var(--formula-font-size);
+  position: absolute;
+  font-family: var(--formula-font-family);
+  font-weight: var(--formula-font-weight);
+  color: #ffffff;
+  letter-spacing: var(--formula-letter-spacing);
+  line-height: var(--formula-line-height);
+  font-style: var(--formula-font-style);
+}
+
+.PEG-vectors-in .div-2 {
+  position: absolute;
+  top: 33px;
+  left: 411px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 23px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .span {
+  font-family: var(--content-font-family);
+  font-weight: var(--content-font-weight);
+  color: #ffffff;
+  font-size: var(--content-font-size);
+  letter-spacing: var(--content-letter-spacing);
+  font-style: var(--content-font-style);
+  line-height: var(--content-line-height);
+}
+
+.PEG-vectors-in .text-wrapper-17 span{
+  font-size: var(--content-font-size);
+  font-family: var(--content-font-family);
+  font-style: var(--content-font-style);
+  font-weight: var(--content-font-weight);
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+.PEG-vectors-in .div-3 {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 27px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .text-wrapper-18 {
+  font-family: var(--formula-font-family);
+  font-weight: var(--formula-font-weight);
+  color: #ffffff;
+  font-size: var(--formula-font-size);
+  letter-spacing: var(--formula-letter-spacing);
+  font-style: var(--formula-font-style);
+  line-height: 1.40;
+}
+
+.PEG-vectors-in .text-wrapper-19 {
+  font-size: var(--content-font-size);
+  font-family: var(--content-font-family);
+  font-style: var(--content-font-style);
+  font-weight: var(--content-font-weight);
+  letter-spacing: var(--content-letter-spacing);
+  line-height: var(--content-line-height);
+}
+
+.PEG-vectors-in .text-wrapper-20 {
+  left: 0;
+  font-size: var(--content-font-size);
+  position: absolute;
+  top: 0;
+  font-family: var(--content-font-family);
+  font-weight: var(--content-font-weight);
+  color: #ffffff;
+  letter-spacing: var(--content-letter-spacing);
+  line-height: var(--content-line-height);
+  font-style: var(--content-font-style);
+}
+
+.PEG-vectors-in .element-space-2 {
+  width: 563px;
+  height: 125px;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.PEG-vectors-in .overlap-group-wrapper {
+  position: absolute;
+  width: 90px;
+  height: 102px;
+  top: 23px;
+  left: 286px;
+}
+
+.PEG-vectors-in .overlap-group-4 {
+  position: relative;
+  width: 86px;
+  height: 102px;
+}
+
+.PEG-vectors-in .text-wrapper-21 {
+  position: absolute;
+  width: 86px;
+  top: 0;
+  left: 0;
+  font-family: "Dorsa", Helvetica;
+  color: #ffffff;
+  font-size: 96px;
+  white-space: nowrap;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .x-y-2 {
+  position: absolute;
+  top: 30px;
+  left: 47px;
+  font-family: var(--formula-font-family);
+  font-weight: var(--formula-font-weight);
+  color: #ffffff;
+  font-size: var(--formula-font-size);
+  letter-spacing: var(--formula-letter-spacing);
+  line-height: var(--formula-line-height);
+  font-style: var(--formula-font-style);
+}
+
+.PEG-vectors-in .vectors-are-usually {
+  top: 463px;
+  left: 106px;
+  position: absolute;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 23px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .text-wrapper-22 {
+  font-style: italic;
+}
+
+.PEG-vectors-in .v {
+  position: absolute;
+  width: 957px;
+  height: 317px;
+  top: 123px;
+  left: 106px;
+}
+
+.PEG-vectors-in .overlap-6 {
+  position: absolute;
+  width: 355px;
+  height: 244px;
+  top: 73px;
+  left: 140px;
+}
+
+.PEG-vectors-in .rectangle-9 {
+  position: absolute;
+  width: 350px;
+  height: 230px;
+  top: 7px;
+  left: 5px;
+  background-color: #00000080;
+  border-radius: 30px;
+}
+
+.PEG-vectors-in .head-tail {
+  position: absolute;
+  width: 355px;
+  height: 244px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.PEG-vectors-in .text-wrapper-23 {
+  width: 955px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  font-family: var(--content-font-family);
+  font-weight: var(--content-font-weight);
+  color: #ffffff;
+  font-size: var(--content-font-size);
+  letter-spacing: var(--content-letter-spacing);
+  line-height: var(--content-line-height);
+  font-style: var(--content-font-style);
+}
+
+.PEG-vectors-in .topic-name {
+  position: absolute;
+  width: 1147px;
+  height: 99px;
+  top: 0;
+  left: 0;
+}
+
+.PEG-vectors-in .overlap-7 {
+  position: relative;
+  height: 99px;
+  top: -0px;
+}
+
+.PEG-vectors-in .db-BG {
+  position: absolute;
+  width: 1145px;
+  height: 99px;
+  left: 0;
+  background-color: #053b50;
+  border-radius: 20px;
+}
+
+.PEG-vectors-in .text-wrapper-24 {
+  position: absolute;
+  width: 327px;
+  height: 42px;
+  top: 9px;
+  left: 409px;
+  font-family: var(--subtopic-header-font-family);
+  font-weight: var(--subtopic-header-font-weight);
+  color: #ffffff;
+  font-size: var(--subtopic-header-font-size);
+  text-align: center;
+  letter-spacing: var(--subtopic-header-letter-spacing);
+  line-height: var(--subtopic-header-line-height);
+  font-style: var(--subtopic-header-font-style);
+}
+
+.PEG-vectors-in .def {
+  position: absolute;
+  width: 1147px;
+  height: 29px;
+  top: 58px;
+  left: 0;
+}
+
+.PEG-vectors-in .overlap-group-5 {
+  position: relative;
+  width: 1145px;
+  height: 29px;
+}
+
+.PEG-vectors-in .lb-BG {
+  position: absolute;
+  width: 1145px;
+  height: 26px;
+  top: 0;
+  left: 0;
+  background-color: #64ccc5;
+}
+
+.PEG-vectors-in .text-wrapper-25 {
+  left: 509px;
+  position: absolute;
+  top: 1px;
+  font-family: var(--definition-1-1-font-family);
+  font-weight: var(--definition-1-1-font-weight);
+  color: #053b50;
+  font-size: var(--definition-1-1-font-size);
+  text-align: center;
+  letter-spacing: var(--definition-1-1-letter-spacing);
+  line-height: var(--definition-1-1-line-height);
+  font-style: var(--definition-1-1-font-style);
+}
+
+.PEG-vectors-in .vector-spaces {
+  position: absolute;
+  width: 1149px;
+  height: 859px;
+  top: 303px;
+  left: 289px;
+}
+
+.PEG-vectors-in .v-s {
+  top: 629px;
+  position: absolute;
+  width: 350px;
+  height: 230px;
+  left: 251px;
+  background-color: #00000080;
+  border-radius: 30px;
+}
+
+.PEG-vectors-in .element {
+  position: absolute;
+  width: 188px;
+  height: 206px;
+  top: 12px;
+  left: 97px;
+  object-fit: cover;
+}
+
+.PEG-vectors-in .p-4 {
+  position: absolute;
+  top: 551px;
+  left: 106px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 23px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .text-wrapper-26 {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.PEG-vectors-in .element-wrapper {
+  top: 289px;
+  position: absolute;
+  width: 350px;
+  height: 230px;
+  left: 251px;
+  background-color: #00000080;
+  border-radius: 30px;
+}
+
+.PEG-vectors-in .img {
+  position: absolute;
+  width: 164px;
+  height: 204px;
+  top: 14px;
+  left: 110px;
+  object-fit: cover;
+}
+
+.PEG-vectors-in .p-p {
+  position: absolute;
+  top: 121px;
+  left: 106px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 23px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .text-wrapper-27 {
+  text-decoration: underline;
+}
+
+.PEG-vectors-in .text-wrapper-28 {
+  left: 512px;
+  position: absolute;
+  top: 1px;
+  font-family: var(--definition-1-1-font-family);
+  font-weight: var(--definition-1-1-font-weight);
+  color: #053b50;
+  font-size: var(--definition-1-1-font-size);
+  text-align: center;
+  letter-spacing: var(--definition-1-1-letter-spacing);
+  line-height: var(--definition-1-1-line-height);
+  font-style: var(--definition-1-1-font-style);
+}
+
+.PEG-vectors-in .vector-operations-in {
+  position: absolute;
+  width: 1145px;
+  height: 4453px;
+  top: 10722px;
+  left: 289px;
+}
+
+.PEG-vectors-in .theorem {
+  position: absolute;
+  width: 1004px;
+  height: 1329px;
+  top: 3124px;
+  left: 0;
+}
+
+.PEG-vectors-in .content {
+  position: absolute;
+  width: 787px;
+  height: 302px;
+  top: 1027px;
+  left: 106px;
+}
+
+.PEG-vectors-in .overlap-group-6 {
+  position: relative;
+  width: 769px;
+  height: 302px;
+}
+
+.PEG-vectors-in .the-additive {
+  position: absolute;
+  width: 745px;
+  top: 20px;
+  left: 24px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 23px;
+  letter-spacing: 0;
+  line-height: 23px;
+}
+
+.PEG-vectors-in .text-wrapper-29 {
+  line-height: 41.4px;
+}
+
+.PEG-vectors-in .text-wrapper-30 {
+  font-style: italic;
+  line-height: 41.4px;
+}
+
+.PEG-vectors-in .div-4 {
+  position: absolute;
+  width: 745px;
+  top: 0;
+  left: 0;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 23px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .text-wrapper-31 {
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 23px;
+  letter-spacing: 0;
+}
+
+.PEG-vectors-in .text-wrapper-32 {
+  position: absolute;
+  width: 19px;
+  top: 203px;
+  left: 320px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.PEG-vectors-in .text-wrapper-33 {
+  position: absolute;
+  width: 19px;
+  top: 203px;
+  left: 117px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.PEG-vectors-in .text-wrapper-34 {
+  width: 19px;
+  top: 162px;
+  left: 106px;
+  font-size: 20px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .text-wrapper-35 {
+  position: absolute;
+  width: 19px;
+  top: 162px;
+  left: 65px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.PEG-vectors-in .text-wrapper-36 {
+  position: absolute;
+  width: 19px;
+  top: 122px;
+  left: 106px;
+  font-family: "DM Sans", Helvetica;
+  color: #ffffff;
+  font-size: 20px;
+  white-space: nowrap;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .text-wrapper-37 {
+  position: absolute;
+  width: 19px;
+  top: 78px;
+  left: 595px;
+  font-family: "DM Sans", Helvetica;
+  color: #ffffff;
+  font-size: 20px;
+  white-space: nowrap;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .text-wrapper-38 {
+  position: absolute;
+  width: 19px;
+  top: 38px;
+  left: 663px;
+  font-family: "DM Sans", Helvetica;
+  color: #ffffff;
+  font-size: 20px;
+  white-space: nowrap;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .overlap-8 {
+  position: absolute;
+  width: 181px;
+  height: 61px;
+  top: 949px;
+  left: 0;
+  background-color: #d2de32d9;
+  border-radius: 20px;
+}
+
+.PEG-vectors-in .text-wrapper-39 {
+  position: absolute;
+  width: 181px;
+  height: 61px;
+  top: 15px;
+  left: 0;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 700;
+  color: #053b50;
+  font-size: 23px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .overlap-wrapper {
+  position: absolute;
+  width: 1008px;
+  height: 367px;
+  top: 510px;
+  left: 0;
+}
+
+.PEG-vectors-in .overlap-9 {
+  position: relative;
+  width: 1020px;
+  height: 387px;
+  top: -10px;
+  left: -10px;
+  border-radius: 50px;
+  border: 10px dashed;
+  border-color: #00000080;
+}
+
+.PEG-vectors-in .overlap-group-7 {
+  position: absolute;
+  width: 863px;
+  height: 245px;
+  top: 88px;
+  left: 123px;
+}
+
+.PEG-vectors-in .additive-identity {
+  position: absolute;
+  width: 863px;
+  top: 0;
+  left: 0;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 23px;
+  letter-spacing: 0;
+  line-height: 41.4px;
+}
+
+.PEG-vectors-in .text-wrapper-40 {
+  font-weight: 700;
+}
+
+.PEG-vectors-in .text-wrapper-41 {
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 23px;
+  letter-spacing: 0;
+  line-height: 41.4px;
+}
+
+.PEG-vectors-in .text-wrapper-42 {
+  position: absolute;
+  width: 19px;
+  top: 76px;
+  left: 127px;
+  font-family: "DM Sans", Helvetica;
+  color: #ffffff;
+  font-size: 20px;
+  white-space: nowrap;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .text-wrapper-43 {
+  position: absolute;
+  width: 19px;
+  top: 76px;
+  left: 276px;
+  font-family: "DM Sans", Helvetica;
+  color: #ffffff;
+  font-size: 20px;
+  white-space: nowrap;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+
+.PEG-vectors-in .text-wrapper-44 {
+  position: absolute;
+  width: 77px;
+  top: 30px;
+  left: 32px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .content-2 {
+  width: 784px;
+  height: 384px;
+  top: 78px;
+  position: absolute;
+  left: 106px;
+}
+
+.PEG-vectors-in .overlap-10 {
+  position: relative;
+  width: 776px;
+  height: 384px;
+}
+
+.PEG-vectors-in .u-v-v-u-u-v-w-u-v-w {
+  position: absolute;
+  width: 745px;
+  top: 20px;
+  left: 31px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 23px;
+  letter-spacing: 0;
+  line-height: 23px;
+}
+
+.PEG-vectors-in .text-wrapper-45 {
+  position: absolute;
+  width: 19px;
+  top: 118px;
+  left: 92px;
+  font-family: "DM Sans", Helvetica;
+  color: #ffffff;
+  font-size: 20px;
+  white-space: nowrap;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .text-wrapper-46 {
+  position: absolute;
+  width: 19px;
+  top: 158px;
+  left: 160px;
+  font-family: "DM Sans", Helvetica;
+  color: #ffffff;
+  font-size: 20px;
+  white-space: nowrap;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .overlap-11 {
+  position: absolute;
+  width: 181px;
+  height: 61px;
+  top: 0;
+  left: 0;
+  background-color: #d2de32d9;
+  border-radius: 20px;
+}
+
+.PEG-vectors-in .try-it-yourself-2 {
+  width: 1014px;
+  height: 1135px;
+  top: 1913px;
+  position: absolute;
+  left: 0;
+}
+
+.PEG-vectors-in .overlap-12 {
+  position: relative;
+  width: 1000px;
+  height: 1135px;
+  background-color: #00000080;
+  border-radius: 50px;
+}
+
+.PEG-vectors-in .text-wrapper-47 {
+  top: 118px;
+  position: absolute;
+  left: 106px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #d2de32;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .text-wrapper-48 {
+  top: 638px;
+  position: absolute;
+  left: 106px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #d2de32;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .line {
+  position: absolute;
+  width: 4px;
+  height: 295px;
+  top: 261px;
+  left: 500px;
+}
+
+.PEG-vectors-in .line-2 {
+  position: absolute;
+  width: 4px;
+  height: 295px;
+  top: 781px;
+  left: 500px;
+}
+
+.PEG-vectors-in .overlap-13 {
+  position: absolute;
+  width: 500px;
+  height: 38px;
+  top: 208px;
+  left: 0;
+  background-color: #64ccc5cc;
+}
+
+.PEG-vectors-in .text-wrapper-49 {
+  position: absolute;
+  top: 4px;
+  left: 215px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #053b50;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .overlap-14 {
+  position: absolute;
+  width: 500px;
+  height: 38px;
+  top: 728px;
+  left: 0;
+  background-color: #64ccc5cc;
+}
+
+.PEG-vectors-in .overlap-15 {
+  position: absolute;
+  width: 494px;
+  height: 38px;
+  top: 208px;
+  left: 506px;
+  background-color: #64ccc5cc;
+}
+
+.PEG-vectors-in .text-wrapper-50 {
+  position: absolute;
+  top: 4px;
+  left: 207px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #053b50;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .overlap-16 {
+  position: absolute;
+  width: 494px;
+  height: 38px;
+  top: 728px;
+  left: 506px;
+  background-color: #64ccc5cc;
+}
+
+.PEG-vectors-in .output {
+  position: absolute;
+  width: 185px;
+  height: 243px;
+  top: 274px;
+  left: 727px;
+}
+
+.PEG-vectors-in .overlap-17 {
+  position: absolute;
+  width: 175px;
+  height: 36px;
+  top: 207px;
+  left: 0;
+}
+
+.PEG-vectors-in .rectangle-10-1 {
+  position: absolute;
+  width: 54px;
+  height: 24px;
+  top: 6px;
+  left: 101px;
+  background-color: #d9d9d9;
+  font-family: "DM Sans", Helvetica;
+  z-index: 1;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: normal
+}
+
+.PEG-vectors-in .rectangle-10-1 input {
+  position: relative;
+  height: 24px;
+  width: 54px;
+  font-family: "DM Sans", Helvetica;
+  z-index: 1;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: normal;
+}
+
+.PEG-vectors-in .rectangle-10-2 {
+  position: absolute;
+  width: 54px;
+  height: 24px;
+  top: 0;
+  left: 101px;
+  background-color: #d9d9d9;
+  font-family: "DM Sans", Helvetica;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: normal;
+}
+
+.PEG-vectors-in .rectangle-10-3 {
+  position: absolute;
+  width: 54px;
+  height: 24px;
+  top: 0;
+  left: 101px;
+  background-color: #d9d9d9;
+  font-family: "DM Sans", Helvetica;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: normal;
+}
+
+.PEG-vectors-in .rectangle-10-4 {
+  position: absolute;
+  width: 54px;
+  height: 24px;
+  top: 0;
+  left: 101px;
+  background-color: #d9d9d9;
+  font-family: "DM Sans", Helvetica;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: normal;
+}
+
+.PEG-vectors-in .rectangle-10-5 {
+  position: absolute;
+  width: 54px;
+  height: 24px;
+  top: 6px;
+  left: 101px;
+  background-color: #d9d9d9;
+  font-family: "DM Sans", Helvetica;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: normal;
+}
+
+.PEG-vectors-in .rectangle-10-6 {
+  position: absolute;
+  width: 54px;
+  height: 24px;
+  top: 6px;
+  left: 101px;
+  background-color: #d9d9d9;
+  font-family: "DM Sans", Helvetica;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: normal;
+}
+
+.PEG-vectors-in .rectangle-10-7 {
+  position: absolute;
+  width: 54px;
+  height: 24px;
+  top: 6px;
+  left: 101px;
+  background-color: #d9d9d9;
+  font-family: "DM Sans", Helvetica;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: normal;
+}
+
+.PEG-vectors-in .rectangle-10-8 {
+  position: absolute;
+  width: 54px;
+  height: 24px;
+  top: 6px;
+  left: 101px;
+  background-color: #d9d9d9;
+  font-family: "DM Sans", Helvetica;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: normal;
+}
+
+.PEG-vectors-in .rectangle-10-9 {
+  position: absolute;
+  width: 54px;
+  height: 24px;
+  top: 6px;
+  left: 101px;
+  background-color: #d9d9d9;
+  font-family: "DM Sans", Helvetica;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: normal;
+}
+
+.PEG-vectors-in .rectangle-10-5 input {
+  position: relative;
+  height: 24px;
+  width: 54px;
+  font-family: "DM Sans", Helvetica;
+  z-index: 1;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: normal;
+}
+
+.PEG-vectors-in .rectangle-11-1 {
+  top: 6px;
+  left: 18px;
+  position: absolute;
+}
+
+.PEG-vectors-in .rectangle-11-1 input {
+  position: relative;
+  height: 24px;
+  width: 54px;
+  font-family: "DM Sans", Helvetica;
+  z-index: 1;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: normal;
+}
+
+.PEG-vectors-in .rectangle-11-2 {
+  position: absolute;
+  width: 54px;
+  height: 24px;
+  top: 0;
+  left: 18px;
+  background-color: #d9d9d9;
+  font-family: "DM Sans", Helvetica;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: normal;
+}
+
+.PEG-vectors-in .rectangle-11-3 {
+  position: absolute;
+  width: 54px;
+  height: 24px;
+  top: 0;
+  left: 18px;
+  background-color: #d9d9d9;
+  font-family: "DM Sans", Helvetica;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: normal;
+}
+
+.PEG-vectors-in .rectangle-11-4 {
+  position: absolute;
+  width: 54px;
+  height: 24px;
+  top: 0;
+  left: 18px;
+  background-color: #d9d9d9;
+  font-family: "DM Sans", Helvetica;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: normal;
+}
+
+.PEG-vectors-in .rectangle-11-5 {
+  top: 6px;
+  left: 18px;
+  position: absolute;
+}
+
+.PEG-vectors-in .rectangle-11-5 input {
+  position: relative;
+  height: 24px;
+  width: 54px;
+  font-family: "DM Sans", Helvetica;
+  z-index: 1;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: normal;
+}
+
+.PEG-vectors-in .rectangle-11-6 {
+  position: absolute;
+  width: 54px;
+  height: 24px;
+  top: 6px;
+  left: 18px;
+  background-color: #d9d9d9;
+  font-family: "DM Sans", Helvetica;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: normal;
+}
+
+.PEG-vectors-in .rectangle-11-7 {
+  position: absolute;
+  width: 54px;
+  height: 24px;
+  top: 6px;
+  left: 18px;
+  background-color: #d9d9d9;
+  font-family: "DM Sans", Helvetica;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: normal;
+}
+
+.PEG-vectors-in .rectangle-11-8 {
+  position: absolute;
+  width: 54px;
+  height: 24px;
+  top: 6px;
+  left: 18px;
+  background-color: #d9d9d9;
+  font-family: "DM Sans", Helvetica;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: normal;
+}
+
+.PEG-vectors-in .rectangle-11-9 {
+  position: absolute;
+  width: 54px;
+  height: 24px;
+  top: 6px;
+  left: 18px;
+  background-color: #d9d9d9;
+  font-family: "DM Sans", Helvetica;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: normal;
+}
+
+.PEG-vectors-in .overlap-18 {
+  position: absolute;
+  width: 175px;
+  height: 36px;
+  top: 151px;
+  left: 0;
+}
+
+.PEG-vectors-in .overlap-19 {
+  position: absolute;
+  width: 175px;
+  height: 36px;
+  top: 95px;
+  left: 0;
+}
+
+.PEG-vectors-in .overlap-group-8 {
+  position: absolute;
+  width: 175px;
+  height: 37px;
+  top: 45px;
+  left: 0;
+}
+
+.PEG-vectors-in .rectangle-12 {
+  position: absolute;
+  width: 54px;
+  height: 24px;
+  top: 0;
+  left: 101px;
+  background-color: #d9d9d9;
+  font-family: "DM Sans", Helvetica;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: normal;
+}
+
+.PEG-vectors-in .rectangle-13 {
+  position: absolute;
+  width: 54px;
+  height: 24px;
+  top: 0;
+  left: 18px;
+  background-color: #d9d9d9;
+  font-family: "DM Sans", Helvetica;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: normal;
+}
+
+.PEG-vectors-in .text-wrapper-51 {
+  position: absolute;
+  top: 1px;
+  left: 0;
+  font-family: "DM Sans", Helvetica;
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .text-wrapper-52 {
+  left: 36px;
+  position: absolute;
+  top: 0;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .operation {
+  position: absolute;
+  width: 128px;
+  height: 198px;
+  top: 315px;
+  left: 597px;
+}
+
+.PEG-vectors-in .text-wrapper-53 {
+  position: absolute;
+  top: 167px;
+  left: 0;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .text-wrapper-54 {
+  position: absolute;
+  top: 111px;
+  left: 0;
+  font-family: "DM Sans", Helvetica;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .text-wrapper-55 {
+  position: absolute;
+  top: 56px;
+  left: 0;
+  font-family: "DM Sans", Helvetica;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .text-wrapper-56 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "DM Sans", Helvetica;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .text-wrapper-57 {
+  top: 167px;
+  left: 35px;
+  position: absolute;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .text-wrapper-58 {
+  top: 111px;
+  left: 66px;
+  font-size: 24px;
+  position: absolute;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .text-wrapper-59 {
+  position: absolute;
+  top: 56px;
+  left: 66px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .text-wrapper-60 {
+  top: 0;
+  left: 33px;
+  font-size: 24px;
+  position: absolute;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .input {
+  position: absolute;
+  width: 181px;
+  height: 137px;
+  top: 274px;
+  left: 172px;
+}
+
+.PEG-vectors-in .overlap-20 {
+  position: absolute;
+  width: 175px;
+  height: 36px;
+  top: 101px;
+  left: 0;
+}
+
+.PEG-vectors-in .overlap-21 {
+  position: absolute;
+  width: 175px;
+  height: 36px;
+  top: 46px;
+  left: 0;
+}
+
+.PEG-vectors-in .rectangle-14-1 {
+  top: 5px;
+  left: 101px;
+  position: absolute;
+  width: 54px;
+  height: 24px;
+  background-color: #d9d9d9;
+  font-family: "DM Sans", Helvetica;
+  z-index: 1;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: normal
+}
+
+.PEG-vectors-in .rectangle-14-1 input {
+  position: relative;
+  height: 24px;
+  width: 54px;
+  font-family: "DM Sans", Helvetica;
+  z-index: 1;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: normal;
+}
+
+.PEG-vectors-in .rectangle-14-2 {
+  top: 5px;
+  left: 101px;
+  position: absolute;
+  width: 54px;
+  height: 24px;
+  background-color: #d9d9d9;  
+  font-family: "DM Sans", Helvetica;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: normal;
+}
+
+.PEG-vectors-in .rectangle-14-2 input {
+  position: relative;
+  height: 24px;
+  width: 54px;
+  font-family: "DM Sans", Helvetica;
+  z-index: 1;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: normal;
+}
+
+.PEG-vectors-in .rectangle-15-1 {
+  top: 5px;
+  left: 18px;
+  position: absolute;
+  width: 54px;
+  height: 24px;
+  background-color: #d9d9d9;
+}
+
+.PEG-vectors-in .rectangle-15-1 input {
+  position: relative;
+  height: 24px;
+  width: 54px;
+  font-family: "DM Sans", Helvetica;
+  z-index: 1;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: normal
+}
+
+.PEG-vectors-in .rectangle-15-2 {
+  top: 5px;
+  left: 18px;
+  position: absolute;
+  width: 54px;
+  height: 24px;
+  background-color: #d9d9d9;
+  font-family: "DM Sans", Helvetica;
+  z-index: 1;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: normal
+}
+
+.PEG-vectors-in .rectangle-15-2 input {
+  position: relative;
+  height: 24px;
+  width: 54px;
+  font-family: "DM Sans", Helvetica;
+  z-index: 1;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: normal
+}
+
+.PEG-vectors-in .text-wrapper-61 {
+  left: 32px;
+  position: absolute;
+  top: 0;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .v-w {
+  position: absolute;
+  width: 42px;
+  height: 87px;
+  top: 321px;
+  left: 122px;
+}
+
+.PEG-vectors-in .instruction {
+  position: absolute;
+  width: 661px;
+  height: 90px;
+  top: 91px;
+  left: 244px;
+}
+
+.PEG-vectors-in .let-v-and-w-be-a {
+  position: absolute;
+  width: 659px;
+  top: 0;
+  left: 0;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 23px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .let-v-and-w-be-a-wrapper {
+  position: absolute;
+  width: 661px;
+  height: 90px;
+  top: 611px;
+  left: 244px;
+}
+
+.PEG-vectors-in .button-solve-1 {
+  position: absolute;
+  width: 69px;
+  height: 31px;
+  top: 4px;
+  left: 18px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #053b50;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .button-solve-1 button{
+  position: relative;
+  width: 104px;
+  height: 39px;
+  background-color: #64ccc5cc;
+  border-radius: 20px;
+  font-size: 23px;
+  font-weight: bold;
+  color: #053b50;
+  border: none;
+}
+
+.PEG-vectors-in .button-solve-1-1 {
+  position: absolute;
+  width: 69px;
+  height: 31px;
+  top: 4px;
+  left: 18px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #053b50;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .button-solve-1-1 button{
+  position: relative;
+  width: 104px;
+  height: 39px;
+  background-color: #64ccc5cc;
+  border-radius: 20px;
+  font-size: 23px;
+  font-weight: bold;
+  color: #053b50;
+  border: none;
+}
+
+
+.PEG-vectors-in .overlap-group-9 {
+  position: relative;
+  width: 104px;
+  height: 39px;
+  background-color: #64ccc5cc;
+  border-radius: 20px;
+}
+
+.PEG-vectors-in .text-wrapper-62 {
+  position: absolute;
+  width: 69px;
+  height: 31px;
+  top: 4px;
+  left: 18px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #053b50;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .output-2 {
+  position: absolute;
+  width: 264px;
+  height: 243px;
+  top: 804px;
+  left: 687px;
+}
+
+.PEG-vectors-in .overlap-22 {
+  position: absolute;
+  width: 254px;
+  height: 36px;
+  top: 207px;
+  left: 0;
+}
+
+.PEG-vectors-in .rectangle-16-1 {
+  position: absolute;
+  width: 54px;
+  height: 24px;
+  top: 6px;
+  left: 184px;
+  background-color: #d9d9d9;  
+  font-family: "DM Sans", Helvetica;
+  z-index: 1;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: normal
+}
+
+.PEG-vectors-in .rectangle-16-1 input{
+  position: relative;
+  height: 24px;
+  width: 54px;
+  font-family: "DM Sans", Helvetica;
+  z-index: 1;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: normal;
+}
+
+.PEG-vectors-in .rectangle-16-2 {
+  position: absolute;
+  width: 54px;
+  height: 24px;
+  top: 6px;
+  left: 184px;
+  background-color: #d9d9d9;
+  font-family: "DM Sans", Helvetica;
+  z-index: 1;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: normal;
+}
+
+.PEG-vectors-in .rectangle-16-3 {
+  position: absolute;
+  width: 54px;
+  height: 24px;
+  top: 6px;
+  left: 184px;
+  background-color: #d9d9d9;
+  font-family: "DM Sans", Helvetica;
+  z-index: 1;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: normal;
+}
+
+.PEG-vectors-in .rectangle-16-4 {
+  position: absolute;
+  width: 54px;
+  height: 24px;
+  top: 6px;
+  left: 184px;
+  background-color: #d9d9d9;
+  font-family: "DM Sans", Helvetica;
+  z-index: 1;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: normal;
+}
+
+.PEG-vectors-in .rectangle-16-5 {
+  position: absolute;
+  width: 54px;
+  height: 24px;
+  top: 6px;
+  left: 184px;
+  background-color: #d9d9d9;
+  font-family: "DM Sans", Helvetica;
+  z-index: 1;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: normal;
+}
+
+.PEG-vectors-in .overlap-23 {
+  position: absolute;
+  width: 254px;
+  height: 36px;
+  top: 151px;
+  left: 0;
+}
+
+.PEG-vectors-in .overlap-24 {
+  position: absolute;
+  width: 254px;
+  height: 36px;
+  top: 95px;
+  left: 0;
+}
+
+.PEG-vectors-in .overlap-25 {
+  position: absolute;
+  width: 254px;
+  height: 36px;
+  top: 39px;
+  left: 0;
+}
+
+.PEG-vectors-in .operation-2 {
+  position: absolute;
+  width: 128px;
+  height: 198px;
+  top: 845px;
+  left: 557px;
+}
+
+.PEG-vectors-in .input-2 {
+  position: absolute;
+  width: 260px;
+  height: 215px;
+  top: 804px;
+  left: 172px;
+}
+
+.PEG-vectors-in .overlap-26 {
+  position: absolute;
+  width: 254px;
+  height: 36px;
+  top: 101px;
+  left: 0;
+}
+
+.PEG-vectors-in .button-solve-2 {
+  top: 176px;
+  left: 28px;
+  position: absolute;
+  width: 106px;
+  height: 39px;
+}
+
+.PEG-vectors-in .button-solve-2-1 {
+  position: absolute;
+  width: 69px;
+  height: 31px;
+  top: 300px;
+  left: 150px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #053b50;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .button-solve-2-1 button{
+  position: relative;
+  width: 104px;
+  height: 39px;
+  background-color: #64ccc5cc;
+  border-radius: 20px;
+  font-size: 23px;
+  font-weight: bold;
+  color: #053b50;
+  border: none;
+}
+
+.PEG-vectors-in .button-solve-2-2 {
+  position: absolute;
+  width: 69px;
+  height: 31px;
+  top: 0;
+  left: 50px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #053b50;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .button-solve-2-2 button{
+  position: relative;
+  width: 104px;
+  height: 39px;
+  background-color: #64ccc5cc;
+  border-radius: 20px;
+  font-size: 23px;
+  font-weight: bold;
+  color: #053b50;
+  border: none;
+}
+
+.PEG-vectors-in .overlap-27 {
+  position: absolute;
+  width: 254px;
+  height: 36px;
+  top: 46px;
+  left: 0;
+}
+
+.PEG-vectors-in .rectangle-17-1 {
+  position: absolute;
+  width: 54px;
+  height: 24px;
+  top: 5px;
+  left: 184px;
+  background-color: #d9d9d9;
+  font-family: "DM Sans", Helvetica;
+  z-index: 1;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: normal
+}
+
+.PEG-vectors-in .rectangle-17-1 input {
+  position: relative;
+  height: 24px;
+  width: 54px;
+  font-family: "DM Sans", Helvetica;
+  z-index: 1;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: normal;
+}
+
+.PEG-vectors-in .v-w-2 {
+  position: absolute;
+  width: 42px;
+  height: 87px;
+  top: 851px;
+  left: 122px;
+}
+
+.PEG-vectors-in .vector-operations-a {
+  position: absolute;
+  width: 1147px;
+  height: 1835px;
+  top: 0;
+  left: 0;
+}
+
+.PEG-vectors-in .table {
+  position: absolute;
+  width: 993px;
+  height: 1618px;
+  top: 217px;
+  left: 7px;
+}
+
+.PEG-vectors-in .overlap-28 {
+  position: relative;
+  width: 1009px;
+  height: 1638px;
+  top: -10px;
+  left: -7px;
+  border-radius: 10px;
+}
+
+.PEG-vectors-in .b-BG {
+  width: 1009px;
+  height: 1638px;
+  top: 0;
+  background-color: #053b5080;
+  border-radius: 10px;
+  border: 10px solid;
+  border-color: #053b50;
+  opacity: 0.85;
+  position: absolute;
+  left: 0;
+}
+
+.PEG-vectors-in .verti-line {
+  position: absolute;
+  width: 11px;
+  height: 95px;
+  top: 10px;
+  left: 441px;
+}
+
+.PEG-vectors-in .verti {
+  position: absolute;
+  width: 11px;
+  height: 95px;
+  top: 410px;
+  left: 441px;
+}
+
+.PEG-vectors-in .verti-2 {
+  position: absolute;
+  width: 11px;
+  height: 95px;
+  top: 824px;
+  left: 440px;
+}
+
+.PEG-vectors-in .verti-3 {
+  position: absolute;
+  width: 10px;
+  height: 142px;
+  top: 1161px;
+  left: 440px;
+}
+
+.PEG-vectors-in .hori-line {
+  top: 406px;
+  position: absolute;
+  width: 993px;
+  height: 10px;
+  left: 7px;
+}
+
+.PEG-vectors-in .hori {
+  top: 815px;
+  position: absolute;
+  width: 993px;
+  height: 10px;
+  left: 7px;
+}
+
+.PEG-vectors-in .hori-2 {
+  top: 1155px;
+  position: absolute;
+  width: 993px;
+  height: 10px;
+  left: 7px;
+}
+
+.PEG-vectors-in .example-g {
+  position: absolute;
+  width: 993px;
+  height: 304px;
+  top: 1303px;
+  left: 9px;
+}
+
+.PEG-vectors-in .element-if-v-w {
+  position: absolute;
+  width: 449px;
+  top: 73px;
+  left: 534px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 27px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .text-wrapper-63 {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.PEG-vectors-in .element-if-v-w-2 {
+  position: absolute;
+  width: 362px;
+  top: 73px;
+  left: 69px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 27px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .example-b-wrapper {
+  position: absolute;
+  width: 989px;
+  height: 43px;
+  top: 90px;
+  left: 0;
+  background-color: #053b50;
+}
+
+.PEG-vectors-in .example-b-wrapper-2 {
+  position: absolute;
+  width: 989px;
+  height: 43px;
+  top: 0;
+  left: 0;
+  background-color: #053b50;
+}
+
+.PEG-vectors-in .example-b-wrapper-3 {
+  position: absolute;
+  width: 989px;
+  height: 43px;
+  left: 0;
+  background-color: #053b50;
+}
+
+
+.PEG-vectors-in .example-b-2 {
+  position: absolute;
+  width: 221px;
+  top: 3px;
+  left: 29px;
+  font-family: var(--example-font-family);
+  font-weight: var(--example-font-weight);
+  color: #ffffff;
+  font-size: var(--example-font-size);
+  text-align: center;
+  letter-spacing: var(--example-letter-spacing);
+  line-height: var(--example-line-height);
+  font-style: var(--example-font-style);
+}
+
+.PEG-vectors-in .element-2 {
+  position: absolute;
+  width: 963px;
+  height: 136px;
+  top: 1167px;
+  left: 19px;
+}
+
+.PEG-vectors-in .for {
+  position: absolute;
+  width: 499px;
+  height: 103px;
+  top: 18px;
+  left: 464px;
+}
+
+.PEG-vectors-in .overlap-group-10 {
+  position: relative;
+  width: 497px;
+  height: 103px;
+  border-radius: 10px;
+}
+
+.PEG-vectors-in .lg-BG {
+  width: 497px;
+  height: 103px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: #64ccc5e6;
+  border-radius: 10px;
+  opacity: 0.85;
+}
+
+.PEG-vectors-in .div-5 {
+  position: absolute;
+  width: 437px;
+  top: 13px;
+  left: 30px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #053b50;
+  font-size: 27px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .text-wrapper-64 {
+  width: 400px;
+  font-family: var(--formula-font-family);
+  font-weight: var(--formula-font-weight);
+  color: #053b50;
+  font-size: var(--formula-font-size);
+  letter-spacing: var(--formula-letter-spacing);
+  font-style: var(--formula-font-style);
+  line-height: var(--formula-line-height);
+}
+
+.PEG-vectors-in .text-wrapper-65 {
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #053b50;
+  font-size: 27px;
+  letter-spacing: 0;
+}
+
+.PEG-vectors-in .text-wrapper-66 {
+  position: absolute;
+  width: 401px;
+  height: 136px;
+  top: 50px;
+  left: 3px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+}
+
+.PEG-vectors-in .example-f {
+  position: absolute;
+  width: 993px;
+  height: 240px;
+  top: 915px;
+  left: 10px;
+}
+
+.PEG-vectors-in .div-6 {
+  position: absolute;
+  width: 378px;
+  top: 73px;
+  left: 533px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 27px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .div-7 {
+  position: absolute;
+  width: 342px;
+  top: 73px;
+  left: 68px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 27px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .element-3 {
+  position: absolute;
+  width: 859px;
+  height: 91px;
+  top: 824px;
+  left: 19px;
+}
+
+.PEG-vectors-in .for-2 {
+  position: absolute;
+  width: 318px;
+  height: 62px;
+  top: 15px;
+  left: 541px;
+}
+
+.PEG-vectors-in .overlap-group-11 {
+  position: relative;
+  width: 316px;
+  height: 62px;
+  border-radius: 10px;
+}
+
+.PEG-vectors-in .lg-BG-2 {
+  position: absolute;
+  width: 305px;
+  height: 62px;
+  top: 0;
+  left: 0;
+  background-color: #64ccc5e6;
+  border-radius: 10px;
+  opacity: 0.85;
+  text-align: center;
+}
+
+.PEG-vectors-in .div-8 {
+  position: absolute;
+  width: 255px;
+  top: 13px;
+  left: 30px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #053b50;
+  font-size: 27px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .text-wrapper-67 {
+  position: absolute;
+  width: 394px;
+  height: 91px;
+  top: 25px;
+  left: 5px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+}
+
+.PEG-vectors-in .example-e {
+  position: absolute;
+  width: 993px;
+  height: 304px;
+  top: 505px;
+  left: 10px;
+}
+
+.PEG-vectors-in .element-4 {
+  position: absolute;
+  width: 870px;
+  height: 90px;
+  top: 415px;
+  left: 14px;
+}
+
+.PEG-vectors-in .for-3 {
+  position: absolute;
+  width: 318px;
+  height: 62px;
+  top: 14px;
+  left: 552px;
+}
+
+.PEG-vectors-in .text-wrapper-68 {
+  position: absolute;
+  width: 406px;
+  height: 90px;
+  top: 25px;
+  left: 0;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+}
+
+.PEG-vectors-in .example-d {
+  position: absolute;
+  width: 993px;
+  height: 304px;
+  top: 15px;
+  left: 10px;
+}
+
+.PEG-vectors-in .element-if-v-w-3 {
+  position: absolute;
+  width: 407px;
+  top: 70px;
+  left: 504px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 27px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .element-if-v-w-4 {
+  position: absolute;
+  width: 313px;
+  top: 73px;
+  left: 69px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 27px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .element-5 {
+  position: absolute;
+  width: 955px;
+  height: 95px;
+  top: 10px;
+  left: 19px;
+}
+
+.PEG-vectors-in .for-4 {
+  position: absolute;
+  width: 499px;
+  height: 62px;
+  top: 17px;
+  left: 456px;
+}
+
+.PEG-vectors-in .overlap-group-12 {
+  position: relative;
+  width: 497px;
+  height: 62px;
+  border-radius: 10px;
+}
+
+.PEG-vectors-in .lg-BG-3 {
+  width: 497px;
+  height: 62px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: #64ccc5e6;
+  border-radius: 10px;
+  opacity: 0.85;
+}
+
+.PEG-vectors-in .text-wrapper-69 {
+  position: absolute;
+  width: 401px;
+  height: 95px;
+  top: 25px;
+  left: 0;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+}
+
+.PEG-vectors-in .let {
+  position: absolute;
+  width: 900px;
+  top: 134px;
+  left: 110px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 23px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .text-wrapper-70 {
+  position: absolute;
+  height: 42px;
+  top: 9px;
+  left: 366px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .text-wrapper-71 {
+  left: 508px;
+  position: absolute;
+  top: 0;
+  font-family: var(--definition-1-1-font-family);
+  font-weight: var(--definition-1-1-font-weight);
+  color: #053b50;
+  font-size: var(--definition-1-1-font-size);
+  text-align: center;
+  letter-spacing: var(--definition-1-1-letter-spacing);
+  line-height: var(--definition-1-1-line-height);
+  font-style: var(--definition-1-1-font-style);
+}
+
+.PEG-vectors-in .vector-scalar {
+  position: absolute;
+  width: 1145px;
+  height: 892px;
+  top: 9755px;
+  left: 289px;
+}
+
+.PEG-vectors-in .paragraph {
+  position: absolute;
+  width: 991px;
+  height: 797px;
+  top: 95px;
+  left: 106px;
+}
+
+.PEG-vectors-in .v-s-m {
+  height: 363px;
+  top: 434px;
+  position: absolute;
+  width: 991px;
+  left: 0;
+}
+
+.PEG-vectors-in .overlap-group-13 {
+  position: absolute;
+  width: 368px;
+  height: 254px;
+  top: 109px;
+  left: 136px;
+}
+
+.PEG-vectors-in .rectangle-18 {
+  position: absolute;
+  width: 350px;
+  height: 230px;
+  top: 12px;
+  left: 9px;
+  background-color: #00000080;
+  border-radius: 30px;
+}
+
+.PEG-vectors-in .negative {
+  position: absolute;
+  width: 368px;
+  height: 254px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.PEG-vectors-in .flexcontainer {
+  height: 101px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  position: absolute;
+  width: 989px;
+  top: 0;
+  left: 0;
+}
+
+.PEG-vectors-in .text {
+  position: relative;
+  align-self: stretch;
+  font-family: "DM Sans", Helvetica;
+  color: #ffffff;
+  font-size: 23px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .v-s-m-2 {
+  height: 331px;
+  top: 87px;
+  position: absolute;
+  width: 991px;
+  left: 0;
+}
+
+.PEG-vectors-in .overlap-29 {
+  position: absolute;
+  width: 376px;
+  height: 258px;
+  top: 73px;
+  left: 132px;
+}
+
+.PEG-vectors-in .rectangle-19 {
+  position: absolute;
+  width: 350px;
+  height: 230px;
+  top: 14px;
+  left: 13px;
+  background-color: #00000080;
+  border-radius: 30px;
+}
+
+.PEG-vectors-in .element-v {
+  position: absolute;
+  width: 376px;
+  height: 258px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.PEG-vectors-in .flexcontainer-2 {
+  height: 67px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  position: absolute;
+  width: 989px;
+  top: 0;
+  left: 0;
+}
+
+.PEG-vectors-in .text-2 {
+  position: relative;
+  align-self: stretch;
+  margin-bottom: -15px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 23px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .div-9 {
+  position: absolute;
+  width: 989px;
+  top: 0;
+  left: 0;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 23px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .topic-name-2 {
+  position: absolute;
+  width: 1147px;
+  height: 68px;
+  top: 0;
+  left: 0;
+}
+
+.PEG-vectors-in .overlap-30 {
+  position: relative;
+  width: 1145px;
+  height: 68px;
+  background-color: #053b50;
+  border-radius: 20px;
+}
+
+.PEG-vectors-in .text-wrapper-72 {
+  position: absolute;
+  height: 42px;
+  top: 6px;
+  left: 307px;
+  font-family: var(--subtopic-header-font-family);
+  font-weight: var(--subtopic-header-font-weight);
+  color: #ffffff;
+  font-size: var(--subtopic-header-font-size);
+  text-align: center;
+  letter-spacing: var(--subtopic-header-letter-spacing);
+  line-height: var(--subtopic-header-line-height);
+  font-style: var(--subtopic-header-font-style);
+}
+
+.PEG-vectors-in .lb-BG-2 {
+  position: absolute;
+  width: 1145px;
+  height: 6px;
+  top: 48px;
+  left: 0;
+}
+
+.PEG-vectors-in .vectors-with-initial {
+  position: absolute;
+  width: 1145px;
+  height: 2957px;
+  top: 6723px;
+  left: 289px;
+}
+
+.PEG-vectors-in .try-it-yourself-3 {
+  width: 1014px;
+  height: 1302px;
+  top: 1655px;
+  position: absolute;
+  left: 0;
+}
+
+.PEG-vectors-in .overlap-31 {
+  position: relative;
+  width: 1000px;
+  height: 1302px;
+  background-color: #00000080;
+  border-radius: 50px;
+}
+
+.PEG-vectors-in .line-3 {
+  position: absolute;
+  width: 4px;
+  height: 370px;
+  top: 281px;
+  left: 463px;
+}
+
+.PEG-vectors-in .line-4 {
+  position: absolute;
+  width: 4px;
+  height: 340px;
+  top: 891px;
+  left: 463px;
+}
+
+.PEG-vectors-in .INPUT-wrapper {
+  position: absolute;
+  width: 463px;
+  height: 38px;
+  top: 228px;
+  left: 0;
+  background-color: #64ccc5cc;
+}
+
+.PEG-vectors-in .INPUT {
+  position: absolute;
+  top: 4px;
+  left: 208px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #053b50;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .overlap-32 {
+  position: absolute;
+  width: 463px;
+  height: 38px;
+  top: 838px;
+  left: 0;
+  background-color: #64ccc5cc;
+}
+
+.PEG-vectors-in .OUTPUT-wrapper {
+  position: absolute;
+  width: 531px;
+  height: 38px;
+  top: 228px;
+  left: 469px;
+  background-color: #64ccc5cc;
+}
+
+.PEG-vectors-in .text-wrapper-73 {
+  position: absolute;
+  top: 4px;
+  left: 214px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #053b50;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .overlap-33 {
+  position: absolute;
+  width: 531px;
+  height: 38px;
+  top: 838px;
+  left: 469px;
+  background-color: #64ccc5cc;
+}
+
+.PEG-vectors-in .label {
+  position: absolute;
+  width: 432px;
+  height: 236px;
+  top: 906px;
+  left: 512px;
+}
+
+.PEG-vectors-in .overlap-34 {
+  position: absolute;
+  width: 390px;
+  height: 124px;
+  top: 112px;
+  left: 42px;
+}
+
+.PEG-vectors-in .final-answer {
+  width: 328px;
+  top: 64px;
+  position: absolute;
+  height: 60px;
+  left: 0;
+}
+
+.PEG-vectors-in .overlap-group-14 {
+  position: relative;
+  width: 400px;
+  height: 60px;
+}
+
+.PEG-vectors-in .rectangle-20 {
+  top: 30px;
+  left: 158px;
+  position: absolute;
+  width: 54px;
+  height: 24px;
+  background-color: #d9d9d9;
+  font-family: "DM Sans", Helvetica;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: normal;
+}
+
+.PEG-vectors-in .rectangle-20-1 {
+  top: 35px;
+  left: 155px;
+  position: absolute;
+  width: 54px;
+  height: 24px;
+  background-color: #d9d9d9;
+  font-family: "DM Sans", Helvetica;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: normal;
+}
+
+.PEG-vectors-in .rectangle-21 {
+  top: 30px;
+  left: 234px;
+  position: absolute;
+  width: 54px;
+  height: 24px;
+  background-color: #d9d9d9;
+  font-family: "DM Sans", Helvetica;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: normal;
+}
+
+.PEG-vectors-in .rectangle-22 {
+  top: 30px;
+  left: 80px;
+  position: absolute;
+  width: 54px;
+  height: 24px;
+  background-color: #d9d9d9;
+  font-family: "DM Sans", Helvetica;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: normal;
+}
+
+.PEG-vectors-in .rectangle-22-1 {
+  top: 35px;
+  left: 80px;
+  position: absolute;
+  width: 54px;
+  height: 24px;
+  background-color: #d9d9d9;
+  font-family: "DM Sans", Helvetica;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: normal;
+}
+
+.PEG-vectors-in .text-wrapper-74 {
+  position: absolute;
+  width: 34px;
+  top: -5px;
+  left: 1px;
+  font-family: "DM Sans", Helvetica;
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .div-10 {
+  position: absolute;
+  top: 24px;
+  width: 300px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .div-10-1 {
+  position: absolute;
+  top: 30px;
+  width: 300px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .div-10-2 {
+  position: absolute;
+  top: 30px;
+  width: 400px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .div-10-4 {
+  position: absolute;
+  top: 24px;
+  width: 500px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .text-wrapper-75 {
+  font-family: "DM Sans", Helvetica;
+  width: 500px;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0;
+}
+
+.PEG-vectors-in .element-6 {
+  width: 355px;
+  height: 72px;
+  left: 35px;
+  position: absolute;
+  top: 0;
+}
+
+.PEG-vectors-in .overlap-35 {
+  position: relative;
+  width: 353px;
+  height: 72px;
+}
+
+.PEG-vectors-in .rectangle-23 {
+  top: 6px;
+  left: 295px;
+  position: absolute;
+  width: 54px;
+  height: 24px;
+  background-color: #d9d9d9;
+  font-family: "DM Sans", Helvetica;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: normal;
+}
+
+.PEG-vectors-in .rectangle-23-1 {
+  top: 6px;
+  left: 295px;
+  position: absolute;
+  width: 54px;
+  height: 24px;
+  background-color: #d9d9d9;
+  font-family: "DM Sans", Helvetica;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: normal;
+}
+
+.PEG-vectors-in .rectangle-24 {
+  top: 6px;
+  left: 205px;
+  position: absolute;
+  width: 54px;
+  height: 24px;
+  background-color: #d9d9d9;
+  font-family: "DM Sans", Helvetica;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: normal;
+}
+
+.PEG-vectors-in .rectangle-24-1 {
+  top: 6px;
+  left: 205px;
+  position: absolute;
+  width: 54px;
+  height: 24px;
+  background-color: #d9d9d9;
+  font-family: "DM Sans", Helvetica;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: normal;
+}
+
+.PEG-vectors-in .rectangle-25 {
+  top: 6px;
+  left: 126px;
+  position: absolute;
+  width: 54px;
+  height: 24px;
+  background-color: #d9d9d9;
+  font-family: "DM Sans", Helvetica;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: normal;
+}
+
+.PEG-vectors-in .rectangle-25-1 {
+  top: 6px;
+  left: 126px;
+  position: absolute;
+  width: 54px;
+  height: 24px;
+  background-color: #d9d9d9;
+  font-family: "DM Sans", Helvetica;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: normal;
+}
+
+.PEG-vectors-in .rectangle-26 {
+  top: 6px;
+  left: 40px;
+  position: absolute;
+  width: 54px;
+  height: 24px;
+  background-color: #d9d9d9;
+  font-family: "DM Sans", Helvetica;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: normal;
+}
+
+.PEG-vectors-in .rectangle-26-1 {
+  top: 6px;
+  left: 40px;
+  position: absolute;
+  width: 54px;
+  height: 24px;
+  background-color: #d9d9d9;
+  font-family: "DM Sans", Helvetica;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: normal;
+}
+
+.PEG-vectors-in .rectangle-27 {
+  position: absolute;
+  width: 54px;
+  height: 24px;
+  top: 44px;
+  left: 125px;
+  background-color: #d9d9d9;
+  font-family: "DM Sans", Helvetica;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: normal;
+}
+
+.PEG-vectors-in .rectangle-28 {
+  position: absolute;
+  width: 54px;
+  height: 24px;
+  top: 44px;
+  left: 41px;
+  background-color: #d9d9d9;
+  font-family: "DM Sans", Helvetica;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: normal;
+}
+
+.PEG-vectors-in .form {
+  position: absolute;
+  width: 349px;
+  height: 60px;
+  top: 38px;
+  left: 41px;
+}
+
+.PEG-vectors-in .overlap-36 {
+  position: relative;
+  width: 345px;
+  height: 60px;
+}
+
+.PEG-vectors-in .text-wrapper-76 {
+  width: 34px;
+  top: -6px;
+  left: 2px;
+  font-size: 36px;
+  position: absolute;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .text-wrapper-76-1 {
+  width: 34px;
+  top: -1 px;
+  left: 2px;
+  font-size: 36px;
+  position: absolute;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .label-2 {
+  position: absolute;
+  width: 324px;
+  height: 317px;
+  top: 903px;
+  left: 96px;
+}
+
+.PEG-vectors-in .button-solve-3 {
+  top: 278px;
+  left: 95px;
+  position: absolute;
+  width: 106px;
+  height: 39px;
+}
+
+.PEG-vectors-in .overlap-37 {
+  position: absolute;
+  width: 320px;
+  height: 199px;
+  top: 31px;
+  left: 0;
+}
+
+.PEG-vectors-in .text-wrapper-77 {
+  position: absolute;
+  top: 90px;
+  left: 0;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .input-3 {
+  position: absolute;
+  width: 280px;
+  height: 199px;
+  top: 0;
+  left: 40px;
+}
+
+.PEG-vectors-in .a {
+  position: absolute;
+  width: 284px;
+  height: 71px;
+  top: 0;
+  left: 0;
+}
+
+.PEG-vectors-in .overlap-group-15 {
+  position: relative;
+  width: 280px;
+  height: 71px;
+}
+
+.PEG-vectors-in .rectangle-29-1 {
+  top: 41px;
+  left: 126px;
+  position: absolute;
+}
+
+.PEG-vectors-in .rectangle-29-1 input{
+  position: relative;
+  height: 24px;
+  width: 54px;
+  font-family: "DM Sans", Helvetica;
+  z-index: 1;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
+
+.PEG-vectors-in .rectangle-29-2 {
+  top: 41px;
+  left: 126px;
+  position: absolute;
+}
+
+.PEG-vectors-in .rectangle-29-2 input{
+  position: relative;
+  height: 24px;
+  width: 54px;
+  font-family: "DM Sans", Helvetica;
+  z-index: 1;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
+
+.PEG-vectors-in .rectangle-29-3 {
+  top: 41px;
+  left: 126px;
+  position: absolute;
+}
+
+.PEG-vectors-in .rectangle-29-3 input{
+  position: relative;
+  height: 24px;
+  width: 54px;
+  font-family: "DM Sans", Helvetica;
+  z-index: 1;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
+
+.PEG-vectors-in .rectangle-29-4 {
+  top: 41px;
+  left: 126px;
+  position: absolute;
+}
+
+.PEG-vectors-in .rectangle-29-4 input{
+  position: relative;
+  height: 24px;
+  width: 54px;
+  font-family: "DM Sans", Helvetica;
+  z-index: 1;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
+
+.PEG-vectors-in .rectangle-30-1 {
+  top: 41px;
+  left: 43px;
+  position: absolute;
+}
+
+.PEG-vectors-in .rectangle-30-1 input{
+  position: relative;
+  height: 24px;
+  width: 54px;
+  font-family: "DM Sans", Helvetica;
+  z-index: 1;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
+
+.PEG-vectors-in .rectangle-30-2 {
+  position: absolute;
+  top: 41px;
+  left: 43px;
+}
+
+.PEG-vectors-in .rectangle-30-2 input{
+  position: relative;
+  height: 24px;
+  width: 54px;
+  font-family: "DM Sans", Helvetica;
+  z-index: 1;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
+
+.PEG-vectors-in .rectangle-30-3 {
+  position: absolute;
+  top: 41px;
+  left: 43px;
+}
+
+.PEG-vectors-in .rectangle-30-3 input{
+  position: relative;
+  height: 24px;
+  width: 54px;
+  font-family: "DM Sans", Helvetica;
+  z-index: 1;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
+
+.PEG-vectors-in .rectangle-30-4 {
+  position: absolute;
+  top: 41px;
+  left: 43px;
+}
+
+.PEG-vectors-in .rectangle-30-4 input{
+  position: relative;
+  height: 24px;
+  width: 54px;
+  font-family: "DM Sans", Helvetica;
+  z-index: 1;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
+
+.PEG-vectors-in .rectangle-31-1 {
+  top: 41px;
+  left: 209px;
+  position: absolute;
+}
+
+.PEG-vectors-in .rectangle-31-1 input{
+  position: relative;
+  height: 24px;
+  width: 54px;
+  font-family: "DM Sans", Helvetica;
+  z-index: 1;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
+
+.PEG-vectors-in .rectangle-31-2 {
+  top: 41px;
+  left: 209px;
+  position: absolute;
+}
+
+.PEG-vectors-in .rectangle-31-2 input{
+  position: relative;
+  height: 24px;
+  width: 54px;
+  font-family: "DM Sans", Helvetica;
+  z-index: 1;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
+
+.PEG-vectors-in .text-wrapper-78 {
+  position: absolute;
+  width: 300px;
+  top: 35px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+  left: 0;
+}
+
+.PEG-vectors-in .text-wrapper-79 {
+  left: 58px;
+  position: absolute;
+  top: 0;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .b {
+  position: absolute;
+  width: 282px;
+  height: 71px;
+  top: 128px;
+  left: 0;
+}
+
+.PEG-vectors-in .overlap-38 {
+  position: relative;
+  width: 278px;
+  height: 71px;
+}
+
+.PEG-vectors-in .instruction-2 {
+  position: absolute;
+  width: 664px;
+  height: 84px;
+  top: 696px;
+  left: 243px;
+}
+
+.PEG-vectors-in .overlap-39 {
+  position: relative;
+  width: 660px;
+  height: 84px;
+}
+
+.PEG-vectors-in .text-wrapper-80 {
+  position: absolute;
+  width: 660px;
+  top: 24px;
+  left: 0;
+  font-family: var(--content-font-family);
+  font-weight: var(--content-font-weight);
+  color: #ffffff;
+  font-size: var(--content-font-size);
+  letter-spacing: var(--content-letter-spacing);
+  line-height: var(--content-line-height);
+  font-style: var(--content-font-style);
+}
+
+.PEG-vectors-in .text-wrapper-81 {
+  width: 28px;
+  top: -2px;
+  left: 30px;
+  font-size: 36px;
+  position: absolute;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .text-wrapper-81-1 {
+  width: 28px;
+  top: -10px;
+  left: 36px;
+  font-size: 36px;
+  position: absolute;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .text-wrapper-82 {
+  top: 732px;
+  position: absolute;
+  left: 106px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #d2de32;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .label-3 {
+  position: absolute;
+  width: 438px;
+  height: 192px;
+  top: 293px;
+  left: 512px;
+}
+
+.PEG-vectors-in .overlap-40 {
+  position: absolute;
+  width: 397px;
+  height: 83px;
+  top: 109px;
+  left: 41px;
+}
+
+.PEG-vectors-in .final-answer-2 {
+  width: 249px;
+  top: 23px;
+  position: absolute;
+  height: 60px;
+  left: 0;
+}
+
+.PEG-vectors-in .overlap-group-16 {
+  position: relative;
+  width: 245px;
+  height: 60px;
+}
+
+.PEG-vectors-in .overlap-wrapper-2 {
+  position: absolute;
+  width: 361px;
+  height: 36px;
+  top: 0;
+  left: 36px;
+}
+
+.PEG-vectors-in .overlap-41 {
+  position: relative;
+  width: 359px;
+  height: 36px;
+}
+
+.PEG-vectors-in .form-2 {
+  position: absolute;
+  width: 259px;
+  height: 60px;
+  top: 38px;
+  left: 41px;
+}
+
+.PEG-vectors-in .overlap-42 {
+  position: relative;
+  width: 255px;
+  height: 60px;
+}
+
+.PEG-vectors-in .label-4 {
+  position: absolute;
+  width: 304px;
+  height: 320px;
+  top: 293px;
+  left: 86px;
+}
+
+.PEG-vectors-in .button-solve-4 {
+  position: absolute;
+  width: 106px;
+  height: 39px;
+  top: 281px;
+  left: 105px;
+}
+
+.PEG-vectors-in .overlap-43 {
+  position: absolute;
+  width: 300px;
+  height: 226px;
+  top: 0;
+  left: 0;
+}
+
+.PEG-vectors-in .text-wrapper-83 {
+  position: absolute;
+  top: 121px;
+  left: 0;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .input-4 {
+  position: absolute;
+  width: 201px;
+  height: 199px;
+  top: 27px;
+  left: 99px;
+}
+
+.PEG-vectors-in .a-2 {
+  width: 205px;
+  height: 71px;
+  top: 0;
+  position: absolute;
+  left: 0;
+}
+
+.PEG-vectors-in .overlap-group-17 {
+  position: relative;
+  width: 201px;
+  height: 71px;
+}
+
+.PEG-vectors-in .b-2 {
+  width: 203px;
+  height: 71px;
+  top: 128px;
+  position: absolute;
+  left: 0;
+}
+
+.PEG-vectors-in .overlap-44 {
+  position: relative;
+  width: 199px;
+  height: 71px;
+}
+
+.PEG-vectors-in .instruction-3 {
+  position: absolute;
+  width: 664px;
+  height: 84px;
+  top: 86px;
+  left: 243px;
+}
+
+.PEG-vectors-in .text-wrapper-84 {
+  top: 122px;
+  position: absolute;
+  left: 106px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #d2de32;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .problem {
+  position: absolute;
+  width: 989px;
+  height: 625px;
+  top: 930px;
+  left: 106px;
+}
+
+.PEG-vectors-in .overlap-45 {
+  position: relative;
+  width: 999px;
+  height: 625px;
+}
+
+.PEG-vectors-in .overlap-46 {
+  position: absolute;
+  width: 999px;
+  height: 565px;
+  top: 0;
+  left: 0;
+}
+
+.PEG-vectors-in .soln {
+  position: absolute;
+  width: 442px;
+  height: 391px;
+  top: 174px;
+  left: 557px;
+}
+
+.PEG-vectors-in .overlap-group-18 {
+  position: relative;
+  width: 432px;
+  height: 391px;
+}
+
+.PEG-vectors-in .where-i-j {
+  position: absolute;
+  width: 192px;
+  top: 321px;
+  left: 240px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 23px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .component-form-PQ {
+  position: relative;
+  width: 350px;
+  top: 0;
+  left: 50px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 23px;
+  line-height: 2;
+}
+
+.PEG-vectors-in .text-wrapper-85 {
+  font-size: 27px;
+}
+
+.PEG-vectors-in .text-wrapper-86 {
+  position: absolute;
+  width: 34px;
+  top: 25px;
+  left: 47px;
+  font-family: "DM Sans", Helvetica;
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .text-wrapper-87 {
+  position: absolute;
+  width: 34px;
+  top: 255px;
+  left: 50px;
+  font-family: "DM Sans", Helvetica;
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .text-wrapper-88 {
+  position: absolute;
+  width: 34px;
+  top: 116px;
+  left: 47px;
+  font-family: "DM Sans", Helvetica;
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .prob {
+  position: absolute;
+  width: 950px;
+  height: 280px;
+  top: 0;
+  left: 0;
+}
+
+.PEG-vectors-in .overlap-47 {
+  position: relative;
+  width: 946px;
+  height: 280px;
+}
+
+.PEG-vectors-in .text-wrapper-89 {
+  position: absolute;
+  width: 34px;
+  top: -7px;
+  left: 39px;
+  font-family: "DM Sans", Helvetica;
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .let-PQ-be-a-vector {
+  position: absolute;
+  width: 946px;
+  top: 24px;
+  left: 0;
+  font-family: var(--content-font-family);
+  font-weight: var(--content-font-weight);
+  color: #ffffff;
+  font-size: var(--content-font-size);
+  letter-spacing: var(--content-letter-spacing);
+  line-height: var(--content-line-height);
+  font-style: var(--content-font-style);
+}
+
+.PEG-vectors-in .rectangle-32 {
+  position: absolute;
+  width: 520px;
+  height: 325px;
+  top: 300px;
+  left: 0;
+}
+
+.PEG-vectors-in .example-2 {
+  position: absolute;
+  width: 1145px;
+  height: 43px;
+  top: 867px;
+  left: 0;
+  background-color: #053b50;
+}
+
+.PEG-vectors-in .content-3 {
+  width: 1009px;
+  height: 737px;
+  top: 98px;
+  position: absolute;
+  left: 106px;
+}
+
+.PEG-vectors-in .overlap-48 {
+  position: relative;
+  height: 737px;
+}
+
+.PEG-vectors-in .element-7 {
+  position: absolute;
+  width: 1009px;
+  height: 352px;
+  top: 385px;
+  left: 0;
+}
+
+.PEG-vectors-in .overlap-49 {
+  position: relative;
+  width: 1013px;
+  height: 352px;
+}
+
+.PEG-vectors-in .for-5 {
+  position: absolute;
+  width: 389px;
+  height: 247px;
+  top: 105px;
+  left: 294px;
+}
+
+.PEG-vectors-in .overlap-50 {
+  position: relative;
+  width: 383px;
+  height: 247px;
+  border-radius: 10px;
+}
+
+.PEG-vectors-in .lg-BG-4 {
+  width: 383px;
+  height: 247px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: #64ccc5e6;
+  border-radius: 10px;
+  opacity: 0.85;
+}
+
+.PEG-vectors-in .group-2 {
+  position: absolute;
+  width: 64px;
+  height: 59px;
+  top: 140px;
+  left: 68px;
+}
+
+.PEG-vectors-in .overlap-group-19 {
+  position: relative;
+  top: -20px;
+  width: 60px;
+  height: 59px;
+}
+
+.PEG-vectors-in .text-wrapper-90 {
+  position: relative;
+  top: -2px;
+  left: 0;
+  font-family: "DM Sans", Helvetica;
+  color: #053b50;
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .PQ {
+  position: absolute;
+  top: 24px;
+  left: 0;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #053b50;
+  font-size: 27px;
+  letter-spacing: 0;
+  line-height: normal;
+  width: 400px;
+}
+
+.PEG-vectors-in .x-x-y-y-z-z {
+  position: absolute;
+  top: 117px;
+  left: 189px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #053b50;
+  font-size: 27px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .text-wrapper-91 {
+  position: absolute;
+  top: 90px;
+  left: 142px;
+  font-family: "Dorsa", Helvetica;
+  color: #053b50;
+  font-size: 120px;
+  white-space: nowrap;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .text-wrapper-92 {
+  position: absolute;
+  top: 71px;
+  left: 189px;
+  font-family: var(--content-font-family);
+  font-weight: var(--content-font-weight);
+  color: #053b50;
+  font-size: var(--content-font-size);
+  letter-spacing: var(--content-letter-spacing);
+  line-height: var(--content-line-height);
+  font-style: var(--content-font-style);
+}
+
+.PEG-vectors-in .for-6 {
+  position: absolute;
+  width: 340px;
+  height: 59px;
+  top: 105px;
+  left: 318px;
+}
+
+.PEG-vectors-in .overlap-51 {
+  position: relative;
+  width: 336px;
+  height: 59px;
+}
+
+.PEG-vectors-in .parapgraph {
+  position: absolute;
+  width: 1013px;
+  height: 229px;
+  top: 0;
+  left: 0;
+}
+
+.PEG-vectors-in .overlap-52 {
+  position: relative;
+  width: 1009px;
+  height: 229px;
+}
+
+.PEG-vectors-in .text-wrapper-93 {
+  position: relative;
+  top: -5px;
+  left: 121px;
+  font-family: "DM Sans", Helvetica;
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .text-wrapper-94 {
+  position: absolute;
+  width: 1009px;
+  top: 24px;
+  left: 0;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 23px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .lg-BG-5 {
+  width: 350px;
+  height: 229px;
+  top: 161px;
+  left: 307px;
+  position: absolute;
+  background-color: #64ccc5e6;
+  border-radius: 10px;
+  opacity: 0.85;
+}
+
+.PEG-vectors-in .element-8 {
+  position: absolute;
+  width: 989px;
+  height: 387px;
+  top: 0;
+  left: 0;
+}
+
+.PEG-vectors-in .for-7 {
+  position: absolute;
+  width: 221px;
+  height: 153px;
+  top: 234px;
+  left: 367px;
+}
+
+.PEG-vectors-in .group-3 {
+  position: absolute;
+  width: 64px;
+  height: 59px;
+  top: 56px;
+  left: 0;
+}
+
+.PEG-vectors-in .overlap-53 {
+  position: absolute;
+  width: 134px;
+  height: 101px;
+  top: 52px;
+  left: 81px;
+}
+
+.PEG-vectors-in .x-x-y-y {
+  position: absolute;
+  top: 5px;
+  left: 43px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #053b50;
+  font-size: 27px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .text-wrapper-95 {
+  position: relative;
+  top: -20px;
+  left: 0;
+  font-family: "Dorsa", Helvetica;
+  color: #053b50;
+  font-size: 96px;
+  white-space: nowrap;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .text-wrapper-96 {
+  position: absolute;
+  top: 0;
+  left: 125px;
+  font-family: var(--content-font-family);
+  font-weight: var(--content-font-weight);
+  color: #053b50;
+  font-size: var(--content-font-size);
+  letter-spacing: var(--content-letter-spacing);
+  line-height: var(--content-line-height);
+  font-style: var(--content-font-style);
+}
+
+.PEG-vectors-in .overlap-54 {
+  position: absolute;
+  width: 993px;
+  height: 220px;
+  top: 0;
+  left: 0;
+}
+
+.PEG-vectors-in .for-8 {
+  position: absolute;
+  width: 253px;
+  height: 59px;
+  top: 161px;
+  left: 350px;
+}
+
+.PEG-vectors-in .overlap-55 {
+  position: relative;
+  width: 249px;
+  height: 59px;
+}
+
+.PEG-vectors-in .paragraph-2 {
+  position: absolute;
+  width: 993px;
+  height: 205px;
+  top: 0;
+  left: 0;
+}
+
+.PEG-vectors-in .overlap-56 {
+  position: relative;
+  width: 989px;
+  height: 205px;
+}
+
+.PEG-vectors-in .text-wrapper-97 {
+  position: absolute;
+  width: 35px;
+  top: 60px;
+  left: 71px;
+  font-family: "DM Sans", Helvetica;
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .text-wrapper-98 {
+  position: absolute;
+  height: 42px;
+  top: 6px;
+  left: 188px;
+  font-family: var(--subtopic-header-font-family);
+  font-weight: var(--subtopic-header-font-weight);
+  color: #ffffff;
+  font-size: var(--subtopic-header-font-size);
+  text-align: center;
+  letter-spacing: var(--subtopic-header-letter-spacing);
+  line-height: var(--subtopic-header-line-height);
+  font-style: var(--subtopic-header-font-style);
+}
+
+.PEG-vectors-in .component-and {
+  position: absolute;
+  width: 1145px;
+  height: 778px;
+  top: 5870px;
+  left: 289px;
+}
+
+.PEG-vectors-in .element-9 {
+  position: absolute;
+  width: 534px;
+  height: 321px;
+  top: 457px;
+  left: 106px;
+}
+
+.PEG-vectors-in .where-i-j-2 {
+  position: absolute;
+  top: 216px;
+  left: 308px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 23px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .IN-SPACE-component {
+  left: 0;
+  font-size: 23px;
+  position: absolute;
+  top: 0;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .element-10 {
+  position: absolute;
+  width: 900px;
+  height: 346px;
+  top: 97px;
+  left: 104px;
+}
+
+.PEG-vectors-in .overlap-group-20 {
+  position: relative;
+  width: 896px;
+  height: 346px;
+}
+
+.PEG-vectors-in .where-i-j-3 {
+  position: absolute;
+  width: 205px;
+  top: 276px;
+  left: 292px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 23px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .vectors-in-space {
+  position: absolute;
+  width: 896px;
+  top: 0;
+  left: 0;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 23px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .text-wrapper-99 {
+  position: absolute;
+  height: 42px;
+  top: 6px;
+  left: 206px;
+  font-family: var(--subtopic-header-font-family);
+  font-weight: var(--subtopic-header-font-weight);
+  color: #ffffff;
+  font-size: var(--subtopic-header-font-size);
+  text-align: center;
+  letter-spacing: var(--subtopic-header-letter-spacing);
+  line-height: var(--subtopic-header-line-height);
+  font-style: var(--subtopic-header-font-style);
+}
+
+.PEG-vectors-in .element-vectors-in-space {
+  position: absolute;
+  top: 105px;
+  left: 206px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 700;
+  color: #d2de32;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .fixed-top-sidebarbg {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.PEG-vectors-in .subtopics-bg {
+  position: absolute;
+  width: 351px;
+  height: 1164px;
+  top: 0;
+  left: 1569px;
+  background-color: #00000080;
+}
+
+.PEG-vectors-in .TOP {
+  position: absolute;
+  width: 1920px;
+  height: 109px;
+  top: 0;
+  left: 0;
+}
+
+.PEG-vectors-in .overlap-58 {
+  position: relative;
+  height: 109px;
+}
+
+.PEG-vectors-in .r-DB {
+  width: 1920px;
+  height: 72px;
+  left: 0;
+  background-color: #053b50;
+  position: absolute;
+  top: 0;
+}
+
+.PEG-vectors-in .r-LB {
+  width: 1849px;
+  height: 65px;
+  left: 71px;
+  background-color: #64ccc5;
+  position: absolute;
+  top: 0;
+}
+
+.PEG-vectors-in .NAME-geomentries {
+  position: absolute;
+  width: 233px;
+  height: 55px;
+  top: 5px;
+  left: 89px;
+  object-fit: cover;
+}
+
+.PEG-vectors-in .about {
+  position: absolute;
+  width: 88px;
+  height: 57px;
+  top: 52px;
+  left: 1803px;
+}
+
+.PEG-vectors-in .overlap-59 {
+  position: relative;
+  height: 57px;
+}
+
+.PEG-vectors-in .e-DB {
+  position: absolute;
+  width: 88px;
+  height: 44px;
+  top: 13px;
+  left: 0;
+}
+
+.PEG-vectors-in .e-button {
+  position: absolute;
+  width: 76px;
+  height: 48px;
+  top: 0;
+  left: 7px;
+}
+
+.PEG-vectors-in .overlap-group-21 {
+  position: relative;
+  width: 74px;
+  height: 48px;
+}
+
+.PEG-vectors-in .e-LB {
+  position: absolute;
+  width: 74px;
+  height: 37px;
+  top: 11px;
+  left: 0;
+}
+
+.PEG-vectors-in .text-wrapper-100 {
+  position: absolute;
+  width: 11px;
+  top: 0;
+  left: 32px;
+  font-family: "Inter", Helvetica;
+  font-weight: 800;
+  color: #053b50;
+  font-size: 35px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .hamburger {
+  position: absolute;
+  width: 50px;
+  height: 30px;
+  top: 21px;
+  left: 11px;
+}
+
+.PEG-vectors-in .line-5 {
+  position: absolute;
+  width: 50px;
+  height: 4px;
+  top: -4px;
+  left: 0;
+}
+
+.PEG-vectors-in .line-6 {
+  position: absolute;
+  width: 50px;
+  height: 4px;
+  top: 11px;
+  left: 0;
+}
+
+.PEG-vectors-in .line-7 {
+  position: absolute;
+  width: 50px;
+  height: 4px;
+  top: 26px;
+  left: 0;
+}
+
+.PEG-vectors-in .DEFAULT {
+  position: fixed;
+  width: 320px;
+  height: 438px;
+  top: 155px;
+  left: 1585px;
+}
+
+.PEG-vectors-in .cross-product {
+  position: absolute;
+  width: 186px;
+  height: 30px;
+  top: 602px;
+  left: 1px;
+}
+
+.PEG-vectors-in .text-wrapper-101 {
+  position: relative;
+  top: -1px;
+  left: 20px;
+  font-family: var(--content-font-family);
+  font-weight: var(--content-font-weight);
+  color: #ffffff;
+  font-size: var(--content-font-size);
+  letter-spacing: var(--content-letter-spacing);
+  line-height: var(--content-line-height);
+  font-style: var(--content-font-style);
+  width: 220px;
+}
+
+.PEG-vectors-in .equations-of-lines {
+  position: absolute;
+  width: 290px;
+  height: 53px;
+  top: 539px;
+  left: 1px;
+}
+
+.PEG-vectors-in .equations-of-lines-2 {
+  position: absolute;
+  width: 290px;
+  top: -1px;
+  left: 0;
+  font-family: var(--content-font-family);
+  font-weight: var(--content-font-weight);
+  color: #ffffff;
+  font-size: var(--content-font-size);
+  letter-spacing: var(--content-letter-spacing);
+  line-height: var(--content-line-height);
+  font-style: var(--content-font-style);
+}
+
+.PEG-vectors-in .orthogonality {
+  position: absolute;
+  width: 180px;
+  height: 30px;
+  top: 499px;
+  left: 1px;
+}
+
+.PEG-vectors-in .norm-distance-dot {
+  position: absolute;
+  width: 224px;
+  height: 60px;
+  top: 429px;
+  left: 1px;
+}
+
+.PEG-vectors-in .vectors-in-space-2 {
+  position: absolute;
+  width: 250px;
+  top: 10px;
+  left: 10px;
+  font-family: var(--content-font-family);
+  font-weight: var(--content-font-weight);
+  color: #d2de32;
+  font-size: var(--content-font-size);
+  letter-spacing: var(--content-letter-spacing);
+  line-height: var(--content-line-height);
+  font-style: var(--content-font-style);
+  text-align: left;
+}
+
+#toggleButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #d2de32;;
+  transition: color 0.3s ease;  /* Smooth color transition on hover */
+}
+
+#toggleButton:hover {
+  color: #64ccc5;  /* Change color on hover */
+}
+
+.PEG-vectors-in .vector-operations-in-2 {
+  position: absolute;
+  width: 242px;
+  height: 60px;
+  top: 359px;
+  left: 40px;
+}
+
+.PEG-vectors-in .text-wrapper-102 {
+  position: absolute;
+  width: 242px;
+  top: -1px;
+  left: 0;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .vector-scalar-2 {
+  height: 60px;
+  top: 289px;
+  left: 40px;
+  position: absolute;
+  width: 278px;
+}
+
+.PEG-vectors-in .text-wrapper-103 {
+  top: -10px;
+  left: 0;
+  font-family: var(--content-font-family);
+  font-weight: var(--content-font-weight);
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: var(--content-letter-spacing);
+  line-height: var(--content-line-height);
+  position: absolute;
+  width: 210px;
+  font-style: var(--content-font-style);
+  text-align: justify;
+}
+
+.PEG-vectors-in .text-wrapper-103-1 {
+  top: 0;
+  left: 0;
+  font-family: var(--content-font-family);
+  font-weight: var(--content-font-weight);
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: var(--content-letter-spacing);
+  line-height: var(--content-line-height);
+  position: absolute;
+  width: 200px;
+  font-style: var(--content-font-style);
+  text-align: justify;
+}
+
+.PEG-vectors-in .text-wrapper-103-2 {
+  top: 10px;
+  left: 0;
+  font-family: var(--content-font-family);
+  font-weight: var(--content-font-weight);
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: var(--content-letter-spacing);
+  line-height: var(--content-line-height);
+  position: absolute;
+  width: 200px;
+  font-style: var(--content-font-style);
+}
+
+.PEG-vectors-in .vectors-with-initial-2 {
+  height: 60px;
+  top: 219px;
+  left: 40px;
+  position: absolute;
+  width: 278px;
+}
+
+.PEG-vectors-in .component-form-and {
+  height: 60px;
+  top: 149px;
+  left: 42px;
+  position: absolute;
+  width: 278px;
+}
+
+.PEG-vectors-in .vectors-2 {
+  height: 30px;
+  top: 109px;
+  left: 42px;
+  position: absolute;
+  width: 134px;
+}
+
+.PEG-vectors-in .text-wrapper-104 {
+  top: -1px;
+  left: 0;
+  font-family: var(--content-font-family);
+  font-weight: var(--content-font-weight);
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: var(--content-letter-spacing);
+  line-height: var(--content-line-height);
+  position: absolute;
+  width: 134px;
+  font-style: var(--content-font-style);
+}
+
+.PEG-vectors-in .vector-spaces-2 {
+  height: 30px;
+  top: 69px;
+  left: 42px;
+  position: absolute;
+  width: 217px;
+}
+
+.PEG-vectors-in .text-wrapper-105 {
+  top: 5px;
+  left: 0;
+  font-family: var(--content-font-family);
+  font-weight: var(--content-font-weight);
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: var(--content-letter-spacing);
+  line-height: var(--content-line-height);
+  position: absolute;
+  width: 217px;
+  font-style: var(--content-font-style);
+}
+
+.PEG-vectors-in .button-quiz {
+  position: fixed;
+  width: 115px;
+  height: 56px;
+  top: 809px;
+  left: 1660px;
+}
+
+.PEG-vectors-in .overlap-60 {
+  position: relative;
+  width: 130px;
+  height: 56px;
+  left: -8px;
+  background-color: #d2de32;
+  border-radius: 30px;
+}
+
+.PEG-vectors-in .text-wrapper-106 {
+  position: absolute;
+  top: 6px;
+  left: 30px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 700;
+  color: #053b50;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .TOPIC-i-II {
+  position: fixed;
+  width: 292px;
+  height: 31px;
+  top: 115px;
+  left: 1588px;
+}
+
+.PEG-vectors-in .text-wrapper-107 a{
+  position: absolute;
+  top: -10px;
+  left: 0;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 700;
+  color: #64ccc5;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PEG-vectors-in .text-wrapper-108 {
+  position: fixed;
+  top: 12px;
+  left: 338px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 500;
+  color: #053b50;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.DEFAULT li {
+  display: none;
+}
+
+.DEFAULT {
+  position: relative;
+  transition: top 0.5s ease; /* Smooth transition for moving elements */
+}
+
+#toggleLesson {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #64ccc5;
+  text-align: left;
+  transition: color 0.3s ease;  /* Smooth color transition on hover */
+}
+
+#subtopic {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  transition: color 0.3s ease;  /* Smooth color transition on hover */
+}
+
+#toggleLesson:hover {
+  color: #d2de32;  /* Change color on hover */
+}
+
+#subtopic:hover {
+  color: #d2de32;  /* Change color on hover */
+}
+
+#topic:hover {
+  color: #d2de32;  /* Change color on hover */
+}
+
+#vectorSpaces {
+  transition: background-color 0.5s ease;
+}
+
+#vectorSpaces.highlight {
+  background-color: #d2de32;
+}

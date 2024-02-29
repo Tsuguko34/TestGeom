@@ -1,0 +1,1191 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lesson1_globals.css" />
+    <link rel="stylesheet" href="lesson1_styleguide.css" />
+    <link rel="stylesheet" href="lesson1_style.css" />
+    <link rel="stylesheet" href="Sidebar.css" />
+  </head>
+  <body>
+    <div class="PEG-vectors-in">
+      <div class="div">
+        <div class="overlap">
+          <div class="BG-overlay"><img class="img" src="bg-overlay-1.png"></div>
+          
+        </div>
+        <p id="lessonNo1" class="element-vectors-in-space lesson 1">1. Vectors in 2-Space &amp; 3-Space</p>
+        <div id="lessonNo1-2" class="vectors lesson 1-2">
+          <div class="note">
+            <div class="overlap-group">
+              <div class="p">
+                <div class="overlap-group-2">
+                  <p class="text-wrapper">Zero vector is denoted as 0.</p>
+                  <div class="text-wrapper-2">→</div>
+                </div>
+              </div>
+              <p class="p-2">
+                ZERO VECTOR is a vector with no direction, and has both is initial and terminal points at the same
+                location.
+              </p>
+              <div class="v-note">
+                <div class="overlap-2">
+                  <div class="rectangle"></div>
+                  <img class="vector-zero-vector" src="vector-zero-vector-2.png">
+                </div>
+              </div>
+              <div class="magnitude-direction-wrapper">
+                <img class="magnitude-direction" src="magnitude-direction-1.png">
+              </div>
+              <p class="p-3">
+                In a graphical representation of vector, the DIRECTIONS is indicated by the arrow- heads orientation,
+                while the MAGNITUDE corresponds to the length of the arrow.
+              </p>
+              <div class="text-wrapper-3">Note:</div>
+            </div>
+          </div>
+          <div class="example-b">
+            <div class="rectangle-2">
+              <video width="550" height="320" controls>
+                <source src="Example B2.mp4" type="video/mp4">
+              </video>
+            </div>
+            <p class="text-wrapper-4">2.) u = (-1, 6, -3)</p>
+            <div class="rectangle-3">
+              <video width="550" height="320" controls>
+                <source src="Example B1.mp4" type="video/mp4">
+              </video>
+            </div>
+            <p class="text-wrapper-5">1.) v = (2, 5, 4)</p>
+            <p class="text-wrapper-6">Illustrate each vector in 3-space using a directed line segment</p>
+            <div class="example"><div class="text-wrapper-7">Example B</div></div>
+          </div>
+          <p class="in">
+            In 3D, vectors are represented using three coordinates (x, y, z), allowing them to move not only
+            horizontally and vertically (like in 2D) but also in depth. This means they can extend along the x, y, and
+            z axes, giving rise to a more comprehensive spatial understanding compared to the limited plane of a 2D
+            graph.
+          </p>
+          <div class="try-it-yourself">
+            <div class="overlap-3">
+              <div class="rectangle-4">
+                <canvas id="vectorCanvas" width="510" height="335"></canvas>
+              </div>
+              <div class="group">
+                <div class="overlap-4">
+                  <div class="rectangle-5"><input type="number" id="vectorY"></div>
+                  <div class="rectangle-6"><input type="number" id="vectorX"></div>
+                  <div class="text-wrapper-8">
+                    v = (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)
+                  </div>
+                </div>
+                <div class="x-y">x&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;y</div>
+                <div class="button-plot">
+                  <div class="div-wrapper"><button class="plot" onclick="graphVector()">PLOT</button></div>
+                  <script src ="plot.js"></script>
+                </div>
+              </div>
+              <p class="text-wrapper-10">Enter a vector and observe its graphical representation on the 2D plane.</p>
+              <div class="text-wrapper-11">TRY IT YOURSELF</div>
+            </div>
+          </div>
+          <div class="example-a">
+            <div class="rectangle-7">
+              <video width="550" height="320" controls>
+                <source src="Example A2.mp4" type="video/mp4">
+              </video>
+            </div>
+            <p class="text-wrapper-12">2.) u = (-5, -2)</p>
+            <div class="rectangle-8">
+              <video width="550" height="320" controls>
+                <source src="Example A1.mp4" type="video/mp4">
+              </video>
+        </div>
+            <p class="text-wrapper-13">1.) v = (4, 3)</p>
+            <p class="text-wrapper-14">Illustrate each vector in the plane using a directed line segment.</p>
+            <br><div class="example"><div class="text-wrapper-7">Example A</div></div>
+          </div>
+          <div class="overlap-5">
+            <div class="element-space">
+              <div class="matrix">
+                <div class="overlap-group-3">
+                  <div class="text-wrapper-15">[&nbsp;&nbsp;]</div>
+                  <div class="x-y-z">x<br />y<br />z</div>
+                </div>
+              </div>
+              <div class="text-wrapper-16"><br>v =</div>
+              <p class="div-2">
+                <span class="span"><br>Components:</span> <span class="text-wrapper-17">(x, y, z)</span>
+              </p>
+              <p class="div-3">
+                <span class="text-wrapper-18"><br>v = (x, y, z)&nbsp;&nbsp;</span>
+                <span class="text-wrapper-19">&nbsp;or</span>
+              </p>
+              <div class="text-wrapper-20"><br>in 3-SPACE:</div>
+            </div>
+            <div class="element-space-2">
+              <div class="overlap-group-wrapper">
+                <div class="overlap-group-4">
+                  <div class="text-wrapper-21">[&nbsp;&nbsp;]</div>
+                  <div class="x-y-2">x<br />y</div>
+                </div>
+              </div>
+              <p class="div-2"><span class="span">Components:</span> <span class="text-wrapper-17">(x, y)</span></p>
+              <div class="text-wrapper-16">v =</div>
+              <p class="div-3">
+                <span class="text-wrapper-18">v = (x, y)&nbsp;&nbsp; </span>
+                <span class="text-wrapper-19">&nbsp;&nbsp;&nbsp;&nbsp; or</span>
+              </p>
+              <div class="text-wrapper-20">in 2-SPACE:</div>
+            </div>
+          </div>
+          <p class="vectors-are-usually">
+            <span class="span">Vectors are usually denoted by lowercase letter such as </span>
+            <span class="text-wrapper-22">v&nbsp;</span>
+            <span class="span"> or </span>
+            <span class="text-wrapper-22">u</span>
+            <span class="span">.</span>
+          </p>
+          <div class="v">
+            <div class="overlap-6">
+              <div class="rectangle-9"></div>
+              <img class="head-tail" src="head-tail-1.png" />
+            </div>
+            <p class="text-wrapper-23">
+              Vectors are graphically represented as a directed line segment pointing from one point (tail) to another
+              point (head).
+            </p>
+          </div>
+          <div class="topic-name">
+            <div class="overlap-7">
+              <div class="db-BG"></div>
+              <div class="text-wrapper-24">VECTORS</div>
+              <div class="def">
+                <div class="overlap-group-5">
+                  <div class="lb-BG"></div>
+                  <div class="text-wrapper-25">Definition 1.2</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="lessonNo1-1" class="vector-spaces lesson 1-1">
+          <div class="v-s">
+            <img class="element" src="3D-Space.png" />
+          </div>
+          <p class="p-4">
+            <span class="text-wrapper-26">3-Space/3D Space (R³)<br /></span>
+            <span class="span">● set of all ordered triples (x, y, z) of real numbers</span>
+          </p>
+          <div class="element-wrapper">
+            <img class="img" src="2D-Space.png">
+          </div>
+          <p class="p-p">
+            <span class="text-wrapper-26">N-Space (Rⁿ)<br /></span>
+            <span class="span">● set of all n-tuples<br /></span>
+            <span class="text-wrapper-27"><br /></span>
+            <span class="text-wrapper-26">2-Space/2D Space (R²)<br /></span>
+            <span class="span">● set of all ordered pairs (x, y) of real numbers</span>
+          </p>
+          <div class="topic-name">
+            <div class="overlap-7">
+              <div class="db-BG"></div>
+              <div class="text-wrapper-24">VECTOR SPACES</div>
+              <div class="def">
+                <div class="overlap-group-5">
+                  <div class="lb-BG"></div>
+                  <div class="text-wrapper-28">Definition 1.1</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="lessonNo1-6" class="vector-operations-in">
+          <div class="theorem">
+            <div class="content">
+              <div class="overlap-group-6">
+                <p class="the-additive">
+                  <span class="span"><br /></span>
+                  <span class="text-wrapper-29">1. The additive identity is unique. That is, if v + u = v, then u = 0.<br />
+                    2. The additive inverse of</span>
+                  <span class="text-wrapper-30">v</span>
+                  <span class="text-wrapper-29"> is unique. That is, if v + u = 0, then u = -v.<br />
+                    3. 0</span>
+                  <span class="text-wrapper-30">v</span>
+                  <span class="text-wrapper-29"> = 0<br />4.</span>
+                  <span class="text-wrapper-30">k</span>
+                  <span class="text-wrapper-29">0 = 0<br />5. If </span>
+                  <span class="text-wrapper-30">kv </span>
+                  <span class="text-wrapper-29">= 0, then </span>
+                  <span class="text-wrapper-30">k </span>
+                  <span class="text-wrapper-29">= 0 or </span>
+                  <span class="text-wrapper-30">v</span>
+                  <span class="text-wrapper-29"> = 0.<br />6. -(-</span>
+                  <span class="text-wrapper-30">v</span>
+                  <span class="text-wrapper-29">) = </span>
+                  <span class="text-wrapper-30">v</span>
+                </p>
+                <p class="div-4">
+                  <span class="span">Let </span>
+                  <span class="text-wrapper-22">v </span>
+                  <span class="span">be a vector in R²</span>
+                  <span class="span"> or R³, and</span>
+                  <span class="text-wrapper-22">k</span>
+                  <span class="span"> be a scalar, then:</span>
+                </p>
+                <div class="text-wrapper-32">→</div>
+                <div class="text-wrapper-33">→</div>
+                <div class="text-wrapper-34">→</div>
+                <div class="text-wrapper-35">→</div>
+                <div class="text-wrapper-36">→</div>
+                <div class="text-wrapper-37">→</div>
+                <div class="text-wrapper-38">→</div>
+              </div>
+            </div>
+            <div class="overlap-8"><div class="text-wrapper-39">THEOREM 1.2</div></div>
+            <div class="overlap-wrapper">
+              <div class="overlap-9">
+                <div class="overlap-group-7">
+                  <p class="additive-identity">
+                    <span class="text-wrapper-40">Additive Identity<br /></span>
+                    <span class="text-wrapper-41"
+                      >The additive identity in both the R² and R³ is represented by the zero vector denoted by 0 = (0,
+                      0) and 0 = (0, 0, 0).<br /><br
+                    /></span>
+                    <span class="text-wrapper-40">Additive Inverse<br /></span>
+                    <span class="text-wrapper-41">The additive inverse of </span>
+                    <span class="text-wrapper-22">v</span>
+                    <span class="text-wrapper-41"> is represented by </span>
+                    <span class="text-wrapper-22">-v.</span>
+                  </p>
+                  <div class="text-wrapper-42">→</div>
+                  <div class="text-wrapper-43">→</div>
+                </div>
+                <div class="text-wrapper-44">Note:</div>
+              </div>
+            </div>
+            <div class="content-2">
+              <div class="overlap-10">
+                <p class="u-v-v-u-u-v-w-u-v-w">
+                  <span class="text-wrapper-31"><br /></span>
+                  <span class="text-wrapper-29"
+                    >1. u + v = v + u<br />
+                    2. (u + v) = w = u + (v + w)<br>
+                    3. u + 0 = u<br>
+                    4. u + (-u) = 0<br>
+                    5. k(u + v) = ku + kv<br>
+                    6. (k + m)u = ku + mu<br>
+                    7. k(mu) = (km)u<br>
+                    8. 1u = u</span
+                  >
+                </p>
+                <p class="div-4">
+                  <span class="text-wrapper-31">Let </span>
+                  <span class="text-wrapper-22">u</span>
+                  <span class="text-wrapper-31">, </span>
+                  <span class="text-wrapper-22">v</span>
+                  <span class="text-wrapper-31">, and </span>
+                  <span class="text-wrapper-22">w</span>
+                  <span class="text-wrapper-31"> be vectors in R² or R³, and </span>
+                  <span class="text-wrapper-22">k</span>
+                  <span class="text-wrapper-31"> and </span>
+                  <span class="text-wrapper-22">m</span>
+                  <span class="text-wrapper-31"> be scalars, then:</span>
+                </p>
+                <div class="text-wrapper-45">→</div>
+                <div class="text-wrapper-46">→</div>
+              </div>
+            </div>
+            <div class="overlap-11"><div class="text-wrapper-39">THEOREM 1.1</div></div>
+          </div>
+          <div class="try-it-yourself-2">
+            <div class="overlap-12">
+              <div class="text-wrapper-47">2-Space</div>
+              <div class="text-wrapper-48">3-Space</div>
+              <img class="line" src="line-5.svg">
+              <img class="line-2" src="line-5.svg">
+              <div class="overlap-13"><div class="text-wrapper-49">INPUT</div></div>
+              <div class="overlap-14"><div class="text-wrapper-49">INPUT</div></div>
+              <div class="overlap-15"><div class="text-wrapper-50">OUTPUT</div></div>
+              <div class="overlap-16"><div class="text-wrapper-50">OUTPUT</div></div>
+              <div class="output">
+                <div class="overlap-17">
+                  <div class="rectangle-10-4"></div>
+                  <div class="rectangle-11-4"></div>
+                  <div class="text-wrapper-8">
+                    (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)
+                  </div>
+                </div>
+                <div class="overlap-18">
+                  <div class="rectangle-10-3"></div>
+                  <div class="rectangle-11-3"></div>
+                  <div class="text-wrapper-8">
+                    (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)
+                  </div>
+                </div>
+                <div class="overlap-19">
+                  <div class="rectangle-10-2"></div>
+                  <div class="rectangle-11-2"></div>
+                  <div class="text-wrapper-8">
+                    (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)
+                  </div>
+                </div>
+                <div class="overlap-group-8">
+                  <div class="rectangle-12"></div>
+                  <div class="rectangle-13"></div>
+                  <div class="text-wrapper-51">
+                    (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)
+                  </div>
+                </div>
+                <div class="text-wrapper-52">x&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;y</div>
+              </div>
+              <div class="operation">
+                <div class="text-wrapper-53">4.</div>
+                <div class="text-wrapper-54">3.</div>
+                <div class="text-wrapper-55">2.</div>
+                <div class="text-wrapper-56">1.</div>
+                <div class="text-wrapper-57">w - v =</div>
+                <div class="text-wrapper-58">-v =</div>
+                <div class="text-wrapper-59">3v =</div>
+                <div class="text-wrapper-60">v + w =</div>
+              </div>
+              <div class="input">
+                <div class="overlap-20">
+                  <div class="rectangle-10-1"><input type="number" id="wY"></div>
+                  <div class="rectangle-11-1"><input type="number" id="wX"></div>
+                  <div class="text-wrapper-8">
+                    (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)
+                  </div>
+                </div>
+                <div class="overlap-21">
+                  <div class="rectangle-14-1"><input type="number" id="vY"></div>
+                  <div class="rectangle-15-1"><input type="number" id="vX"></div>
+                  <div class="text-wrapper-8">
+                    (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)
+                  </div>
+                </div>
+                <div class="text-wrapper-61">x&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;y</div>
+              </div>
+              <div class="v-w">
+                <div class="text-wrapper-55">w =</div>
+                <div class="text-wrapper-56">v =</div>
+              </div>
+              <div class="instruction">
+                <p class="let-v-and-w-be-a">
+                  <span class="span">Let </span>
+                  <span class="text-wrapper-22">v</span>
+                  <span class="span"> and </span>
+                  <span class="text-wrapper-22">w</span>
+                  <span class="span">
+                    be a vector in 2-space. Try entering a value for these vectors and observe their value after
+                    performing the following operations:</span
+                  >
+                </p>
+              </div>
+              <div class="let-v-and-w-be-a-wrapper">
+                <p class="let-v-and-w-be-a">
+                  <span class="span">Let </span>
+                  <span class="text-wrapper-22">v</span>
+                  <span class="span"> and </span>
+                  <span class="text-wrapper-22">w</span>
+                  <span class="span">
+                    be a vector in 3-space. Try entering a value for these vectors and observe their value after
+                    performing the following operations:</span
+                  >
+                </p>
+              </div>
+              <div class="text-wrapper-11">TRY IT YOURSELF</div>
+              <div class="button-solve-2">
+                <div class="button-solve-2-1"><button class="solve" onclick="performOperations()">SOLVE</button></div>
+                <script src="vector_operations.js"></script>
+              </div>
+              <div class="output-2">
+                <div class="overlap-22">
+                  <div class="rectangle-10-9"></div>
+                  <div class="rectangle-16-5"></div>
+                  <div class="rectangle-11-9"></div>
+                  <div class="text-wrapper-8">
+                    (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)
+                  </div>
+                </div>
+                <div class="overlap-23">
+                  <div class="rectangle-10-8"></div>
+                  <div class="rectangle-16-4"></div>
+                  <div class="rectangle-11-8"></div>
+                  <div class="text-wrapper-8">
+                    (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)
+                  </div>
+                </div>
+                <div class="overlap-24">
+                  <div class="rectangle-10-7"></div>
+                  <div class="rectangle-16-3"></div>
+                  <div class="rectangle-11-7"></div>
+                  <div class="text-wrapper-8">
+                    (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)
+                  </div>
+                </div>
+                <div class="overlap-25">
+                  <div class="rectangle-10-6"></div>
+                  <div class="rectangle-16-2"></div>
+                  <div class="rectangle-11-6"></div>
+                  <div class="text-wrapper-8">
+                    (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)
+                  </div>
+                </div>
+                <div class="text-wrapper-52">
+                  x&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;y&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;z
+                </div>
+              </div>
+              <div class="operation-2">
+                <div class="text-wrapper-53">4.</div>
+                <div class="text-wrapper-54">3.</div>
+                <div class="text-wrapper-55">2.</div>
+                <div class="text-wrapper-56">1.</div>
+                <div class="text-wrapper-57">w - v =</div>
+                <div class="text-wrapper-58">-v =</div>
+                <div class="text-wrapper-59">3v =</div>
+                <div class="text-wrapper-60">v + w =</div>
+              </div>
+              <div class="input-2">
+                <div class="overlap-26">
+                  <div class="rectangle-10-5"><input type="number" id="uY"></div>
+                  <div class="rectangle-11-5"><input type="number" id="uX"></div>
+                  <div class="text-wrapper-8">
+                    (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)
+                  </div>
+                  <div class="rectangle-16-1"><input type="number" id="uZ"></div>
+                </div>
+                <div class="button-solve-2">
+                  <div class="button-solve-2-2"><button onclick="performOperations3D()">SOLVE</button></div>
+                  <script src="vector_op3D.js"></script>
+                </div>
+                <div class="overlap-27">
+                  <div class="rectangle-14-2"><input type="number" id="nvY"></div>
+                  <div class="rectangle-17-1"><input type="number" id="nvZ"></div>
+                  <div class="rectangle-15-2"><input type="number" id="nvX"></div>
+                  <div class="text-wrapper-8">
+                    (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)
+                  </div>
+                </div>
+                <div class="text-wrapper-61">
+                  x&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;y&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;z
+                </div>
+              </div>
+              <div class="v-w-2">
+                <div class="text-wrapper-55">w =</div>
+                <div class="text-wrapper-56">v =</div>
+              </div>
+            </div>
+          </div>
+          <div class="vector-operations-a">
+            <div class="table">
+              <div class="overlap-28">
+                <div class="b-BG"></div>
+                <img class="verti-line" src="verti-line3.svg">
+                <img class="verti" src="verti-line3.svg">
+                <img class="verti-2" src="verti-line3.svg">
+                <img class="verti-3" src="verti-line4.svg">
+                <img class="hori-line" src="hori-line3.svg">
+                <img class="hori" src="hori-line3.svg">
+                <img class="hori-2" src="hori-line3.svg">
+                <div class="example-g">
+                  <p class="element-if-v-w">
+                    <span class="text-wrapper-18"
+                      >2.) If<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;v = (0, -5, 7)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;w
+                      = (-8, 2, -2)<br />&nbsp;&nbsp;&nbsp;&nbsp; Then<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;w
+                      - v = (-8 - 0, 2 – (-5), -2 – 7)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+                      (-8, 7, -9)&nbsp;&nbsp;</span
+                    >
+                    <span class="text-wrapper-63">■</span>
+                  </p>
+                  <p class="element-if-v-w-2">
+                    <span class="text-wrapper-18"
+                      >1.) If<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;v = (3, -6),<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;w
+                      = (-8, 2)<br />&nbsp;&nbsp;&nbsp;&nbsp; Then<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;w
+                      - v = (-8 - 3, 2 - (-6))<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      = (-11 , 8)&nbsp;&nbsp;</span
+                    >
+                    <span class="text-wrapper-63">■</span>
+                  </p>
+                  <div class="example-b-wrapper-3"><div class="example-b-2">Example G</div></div>
+                </div>
+                <div class="element-2">
+                  <div class="for">
+                    <div class="overlap-group-10">
+                      <div class="lg-BG"></div>
+                      <p class="div-5">
+                        <span class="text-wrapper-40">w - v</span>
+                        <span class="text-wrapper-64">
+                          = w + (-v)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                          = (w₁ - v₁, w₂ - v₂, ..., wₙ - vₙ)</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="text-wrapper-66">4. SUBTRACTION OF VECTORS</div>
+                </div>
+                <div class="example-f">
+                  <p class="div-6">
+                    <span class="text-wrapper-18"
+                      >2.) If<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;v = (3, -14, 8)<br />&nbsp;&nbsp;&nbsp;&nbsp;
+                      Then<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-v = (-3, 14, -8)</span
+                    >
+                    <span class="text-wrapper-19">&nbsp;&nbsp;</span>
+                    <span class="text-wrapper-63">■</span>
+                  </p>
+                  <p class="div-7">
+                    <span class="text-wrapper-18"
+                      >1.) If<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;v = (4, -9)<br />&nbsp;&nbsp;&nbsp;&nbsp;
+                      Then<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-v = (-4, 9)&nbsp;&nbsp;</span
+                    >
+                    <span class="text-wrapper-63">■</span>
+                  </p>
+                  <div class="example-b-wrapper-3"><div class="example-b-2">Example F</div></div>
+                </div>
+                <div class="element-3">
+                  <div class="for-2">
+                    <div class="overlap-group-11">
+                      <div class="lg-BG-2"></div>
+                      <p class="div-8">
+                        <span class="text-wrapper-40">-v</span>
+                        <span class="text-wrapper-64"> = (-v₁, -v₂, ..., -vₙ)</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="text-wrapper-67">3. NEGATIVE OF A VECTOR</div>
+                </div>
+                <div class="example-e">
+                  <p class="div-6">
+                    <span class="text-wrapper-18"
+                      >2.) If<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;v = (3, -1, 10)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;k
+                      = 2<br />&nbsp;&nbsp;&nbsp;&nbsp; Then<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; kv =
+                      (2 (3), 2 (-1), 2 (-10))<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+                      (6, -2, -20)
+                    </span>
+                    <span class="text-wrapper-63">■</span>
+                  </p>
+                  <p class="div-7">
+                    <span class="text-wrapper-18"
+                      >1.) If<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;v = (-2, 7)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;k
+                      = 5<br />&nbsp;&nbsp;&nbsp;&nbsp; Then<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;kv =
+                      (5 (-2), 5 (7))<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+                      (-10, 35)&nbsp;&nbsp;</span
+                    >
+                    <span class="text-wrapper-63">■</span>
+                  </p>
+                  <div class="example-b-wrapper-2"><div class="example-b-2">Example E</div></div>
+                </div>
+                <div class="element-4">
+                  <div class="for-3">
+                    <div class="overlap-group-11">
+                      <div class="lg-BG-2"></div>
+                      <p class="div-8">
+                        <span class="text-wrapper-40">kv</span>
+                        <span class="text-wrapper-64-1"> = (kv₁, kv₂, ... , kvₙ)</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="text-wrapper-68">2. SCALAR MULTIPLICATION</div>
+                </div>
+                <div class="example-d">
+                  <p class="element-if-v-w-3">
+                    <span class="text-wrapper-18"
+                      ><br><br>2.) If<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;v = (-2, 9, 4)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;w
+                      = (1, -7, -4)<br />&nbsp;&nbsp;&nbsp;&nbsp; Then<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;v
+                      + w = (-2 + 1, 9 – 7, 4 – 4)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+                      (-1, 2, 0)&nbsp;&nbsp;</span
+                    >
+                    <span class="text-wrapper-63">■</span>
+                  </p>
+                  <p class="element-if-v-w-4">
+                    <span class="text-wrapper-18"
+                      ><br><br>1.) If<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;v = (5, 7),<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;w
+                      = (8, 3)<br />&nbsp;&nbsp;&nbsp;&nbsp; Then<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;v
+                      + w = (5 + 8, 7 + 3)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      = (13 , 10)&nbsp;&nbsp;</span
+                    >
+                    <span class="text-wrapper-63">■</span>
+                  </p>
+                  <div class="example-b-wrapper"><div class="example-b-2">Example D</div></div>
+                </div>
+                <div class="element-5">
+                  <div class="for-4">
+                    <div class="overlap-group-12">
+                      <div class="lg-BG-3"></div>
+                      <p class="div-5">
+                        <span class="text-wrapper-40">v + w</span>
+                        <span class="text-wrapper-64"> = (v₁ + w₁, v₂ + w₂, ... , vₙ + wₙ)</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="text-wrapper-69">1. VECTOR ADDITION</div>
+                </div>
+              </div>
+            </div>
+            <p class="let">
+              <span class="span">Let v = (v₁, v₂, ... , vₙ) and w = (w₁,  w₂, ... , wₙ) be vectors in Rⁿ and</span>
+              <span class="text-wrapper-22">k</span>
+              <span class="span"> be any scalar. Then:</span>
+            </p>
+            <div class="topic-name">
+              <div class="overlap-7">
+                <div class="db-BG"></div>
+                <div class="text-wrapper-70">VECTOR OPERATIONS IN Rⁿ</div>
+                <div class="def">
+                  <div class="overlap-group-5">
+                    <div class="lb-BG"></div>
+                    <div class="text-wrapper-71">Definition 1.3</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="lessonNo1-5" class="vector-scalar">
+          <div class="paragraph">
+            <div class="v-s-m">
+              <div class="overlap-group-13">
+                <div class="rectangle-18"></div>
+                <img class="negative" src="negative-1.png" />
+              </div>
+              <div class="flexcontainer">
+                <p class="text">
+                  <span class="text-wrapper-26">DIRECTION of the NEW VECTOR<br /></span>
+                </p>
+                <p class="text">
+                  <span class="text-wrapper-31"
+                    >&nbsp;&nbsp;&nbsp;&nbsp; If k is positive, the new vector points in the same direction v. if k is
+                    negative, the new vector points in the opposite direction.</span
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="v-s-m-2">
+              <div class="overlap-29">
+                <div class="rectangle-19"></div>
+                <img class="element-v" src="2v-v-1-2v-2.png">
+              </div>
+              <div class="flexcontainer-2">
+                <p class="text">
+                  <span class="text-wrapper-26">MAGNITUDE of the NEW VECTOR<br /></span>
+                </p>
+                <p class="text-2">
+                  <span class="text-wrapper-40">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                  <span class="text-wrapper-31">The magnitude of the new vector is |k| times the length of </span>
+                  <span class="text-wrapper-22">v.</span>
+                </p>
+              </div>
+            </div>
+            <p class="div-9">
+              <span class="span">Let </span>
+              <span class="text-wrapper-22">v</span>
+              <span class="span"> be a vector in 2-space or 3-space, and </span>
+              <span class="text-wrapper-22">k</span>
+              <span class="span"> be a non-zero real numbers. Taking the scalar product of </span>
+              <span class="text-wrapper-22">v </span>
+              <span class="text-wrapper-31">by </span>
+              <span class="text-wrapper-22">k</span>
+              <span class="text-wrapper-31"> creates a new vector.</span>
+            </p>
+          </div>
+          <div class="topic-name-2">
+            <div class="overlap-30">
+              <div class="text-wrapper-72">VECTOR-SCALAR MULTIPLICATION</div>
+              <img class="lb-BG-2" src="lb-bg.svg">
+            </div>
+          </div>
+        </div>
+        <div id="lessonNo1-4" class="vectors-with-initial">
+          <div class="try-it-yourself-3">
+            <div class="overlap-31">
+              <img class="line-3" src="line-4.svg">
+              <img class="line-4" src="line-8.svg">
+              <div class="INPUT-wrapper"><div class="INPUT">INPUT</div></div>
+              <div class="overlap-32"><div class="INPUT">INPUT</div></div>
+              <div class="OUTPUT-wrapper"><div class="text-wrapper-73">OUTPUT</div></div>
+              <div class="overlap-33"><div class="text-wrapper-73">OUTPUT</div></div>
+              <div class="label">
+                <div class="overlap-34">
+                  <div class="final-answer"><br><br>
+                    <div class="overlap-group-14">
+                      <div class="rectangle-20"></div>
+                      <div class="rectangle-21"></div>
+                      <div class="rectangle-22"></div>
+                      <div class="text-wrapper-74">→</div>
+                      <p class="div-10-3">
+                        <span class="text-wrapper-75">
+                          <br>AB = (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                          ,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                          )
+                        </span>
+                        <span class="text-wrapper-63">■</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="element-6">
+                    <div class="overlap-35">
+                      <div class="rectangle-23"></div>
+                      <div class="rectangle-24"></div>
+                      <div class="rectangle-25"></div>
+                      <div class="rectangle-26"></div>
+                      <div class="rectangle-27"></div>
+                      <div class="rectangle-28"></div>
+                      <p class="text-wrapper-8-1">
+                        = (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        -&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        ,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        ,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        )
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="form">
+                  <div class="overlap-36">
+                    <p class="div-10-2">AB = (x₂ - x₁,&nbsp;&nbsp;y₂ - y₁,&nbsp;&nbsp;z₂ - z₁)</p>
+                    <div class="text-wrapper-76-1">→</div>
+                  </div>
+                </div>
+                <div class="text-wrapper-56">Component Form:</div>
+              </div>
+              <div class="label-2">
+                <div class="button-solve-3">
+                  <div class="button-solve-1-1"><button class="solve" onclick="calculateComponentForm()">SOLVE</button></div>
+                  <script src="vector_sub3D.js"></script>
+                </div>
+                <div class="overlap-37">
+                  <div class="text-wrapper-77">Terminal Point</div>
+                  <div class="input-3">
+                    <div class="a">
+                      <div class="overlap-group-15">
+                        <div class="rectangle-29-3"><input type="number" id="vector1y"></div>
+                        <div class="rectangle-30-3"><input type="number" id="vector1x"></div>
+                        <div class="rectangle-31-1"><input type="number" id="vector1z"></div>
+                        <div class="text-wrapper-78">
+                          A (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)
+                        </div>
+                        <div class="text-wrapper-79">
+                          x&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;y&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;z
+                        </div>
+                      </div>
+                    </div>
+                    <div class="b">
+                      <div class="overlap-38">
+                        <div class="rectangle-29-4"><input type="number" id="vector2y"></div>
+                        <div class="rectangle-30-4"><input type="number" id="vector2x"></div>
+                        <div class="rectangle-31-2"><input type="number" id="vector2z"></div>
+                        <div class="text-wrapper-78">
+                          B
+                          (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)
+                        </div>
+                        <div class="text-wrapper-79">
+                          x&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;y&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;z
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-wrapper-56">Initial Point</div>
+              </div>
+              <div class="instruction-2">
+                <div class="overlap-39">
+                  <p class="text-wrapper-80">
+                    Let AB be a vector in 3-space. Try entering an initial point and terminal point and observe it
+                    corresponding components.
+                  </p>
+                  <div class="text-wrapper-81">→</div>
+                </div>
+              </div>
+              <div class="text-wrapper-82">3-Space</div>
+              <div class="label-3">
+                <div class="overlap-40">
+                  <div class="final-answer-2"><br><br><br><br><br><br>
+                    <div class="overlap-group-16">
+                      <div class="rectangle-20-1"></div>
+                      <div class="rectangle-22-1"></div>
+                      <div class="text-wrapper-74">→</div>
+                      <p class="div-10-1">
+                        <span class="text-wrapper-75">
+                          AB = (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                          ,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; )
+                        </span>
+                        <span class="text-wrapper-63">■</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="overlap-wrapper-2">
+                    <div class="overlap-41">
+                      <div class="rectangle-23-1"></div>
+                      <div class="rectangle-24-1"></div>
+                      <div class="rectangle-25-1"></div>
+                      <div class="rectangle-26-1"></div>
+                      <p class="text-wrapper-8">
+                        = (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        -&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        ,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        )
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-2">
+                  <div class="overlap-42">
+                    <p class="div-10">AB = (x₂ - x₁,&nbsp;&nbsp;y₂ - y₁)</p>
+                    <div class="text-wrapper-76">→</div>
+                  </div>
+                </div>
+                <div class="text-wrapper-56">Component Form:</div>
+              </div>
+              <div class="label-4">
+                <div class="button-solve-4">
+                  <div class="button-solve-1"><button class="solve" onclick="calculateVector()">SOLVE</button> <script src="vector_subtraction.js"></script></div>
+                </div>
+                <div class="overlap-43">
+                  <div class="text-wrapper-83">Terminal Point</div>
+                  <div class="text-wrapper-56">Initial Point</div>
+                  <div class="input-4">
+                    <div class="a-2">
+                      <div class="overlap-group-17">
+                        <div class="rectangle-29-1"><input type="number" id="initialY"></div>
+                        <div class="rectangle-30-1"><input type="number" id="initialX"></div>
+                        <div class="text-wrapper-78">
+                          A
+                          (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)
+                        </div>
+                        <div class="text-wrapper-79">
+                          x&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;y
+                        </div>
+                      </div>
+                    </div>
+                    <div class="b-2">
+                      <div class="overlap-44">
+                        <div class="rectangle-29-2"><input type="number" id="terminalY"></div>
+                        <div class="rectangle-30-2"><input type="number" id="terminalX"></div>
+                        <div class="text-wrapper-78">
+                          B (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)
+                        </div>
+                        <div class="text-wrapper-79">
+                          x&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;y
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="instruction-3">
+                <div class="overlap-39">
+                  <p class="text-wrapper-80">
+                    Let AB be a vector in 2-space. Try entering an initial point and terminal point and observe it
+                    corresponding components.
+                  </p>
+                  <div class="text-wrapper-81-1">→</div>
+                </div>
+              </div>
+              <div class="text-wrapper-84">2-Space</div>
+              <div class="text-wrapper-11">TRY IT YOURSELF</div>
+            </div>
+          </div>
+          <div class="problem">
+            <div class="overlap-45">
+              <div class="overlap-46">
+                <div class="soln">
+                  <div class="overlap-group-18">
+                    <p class="where-i-j">
+                      <span class="span">where</span>
+                      <span class="text-wrapper-17"
+                        >&nbsp;&nbsp;&nbsp;&nbsp;i = (1, 0),<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        j = (0, 1)</span
+                      >
+                    </p>
+                    <p class="component-form-PQ">
+                      <span class="text-wrapper-22">Component Form</span><br>
+                      <span class="text-wrapper-17">PQ = (x₂</span>
+                      <span class="text-wrapper-17"> - x₁</span>
+                      <span class="text-wrapper-17">,&nbsp;&nbsp;y₂</span>
+                      <span class="text-wrapper-17"> - y₁)</span>
+                      <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= (9 - 3,&nbsp;&nbsp;7 -
+                        2)&nbsp;&nbsp;&nbsp;&nbsp; <br>PQ = (6, 5)<br
+                      /></span>
+                      <span class="span"><br></span>
+                      <span class="text-wrapper-22">Standard Unit Form<br /></span>
+                      <span class="text-wrapper-17"
+                        >PQ = (6, 5)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; = 6i + 5j</span
+                      >
+                    </p>
+                    <div class="text-wrapper-86">→</div>
+                    <div class="text-wrapper-87">→</div>
+                    <div class="text-wrapper-88">→</div>
+                  </div>
+                </div>
+                <div class="prob">
+                  <div class="overlap-47">
+                    <div class="text-wrapper-89">→</div>
+                    <p class="let-PQ-be-a-vector">
+                      Let PQ be a vector with initial point P (3, 2) and terminal point Q (9, 7). Sketch the vector PQ
+                      and express it in both component form and standard unit form.<br /><br />Solution:<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;
+                      P (3, 2)<br />&nbsp;&nbsp;&nbsp;&nbsp; Q (9, 7)<br />&nbsp;&nbsp;&nbsp;&nbsp; Sketching the graph:
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="rectangle-32">
+                <video width="550" height="320" controls>
+                  <source src="Example C.mp4" type="video/mp4">
+                </video>
+              </div>
+            </div>
+          </div>
+          <div class="example-2"><div class="text-wrapper-7">Example C</div></div>
+          <div class="content-3">
+            <div class="overlap-48">
+              <div class="element-7">
+                <div class="overlap-49">
+                  <div class="for-5">
+                    <div class="overlap-50">
+                      <div class="lg-BG-4"></div>
+                      <div class="group-2">
+                        <div class="overlap-group-19">
+                          <div class="text-wrapper-90">→</div>
+                          <p class="PQ">
+                            <span class="text-wrapper-40">PQ</span> <span class="text-wrapper-64"> =</span>
+                          </p>
+                        </div>
+                      </div>
+                      <p class="x-x-y-y-z-z">x₂ - x₁<br>y₂ - y₁<br>z₂ - z₁</p>
+                      <div class="text-wrapper-91">[&nbsp;&nbsp;&nbsp;]</div>
+                      <div class="text-wrapper-92">or</div>
+                    </div>
+                  </div>
+                  <div class="for-6">
+                    <div class="overlap-51">
+                      <div class="text-wrapper-90">→</div>
+                      <p class="PQ">
+                        <span class="text-wrapper-40">PQ</span>
+                        <span class="text-wrapper-64"> = (x₂</span>
+                        <span class="text-wrapper-64"> - x₁</span>
+                        <span class="text-wrapper-64">,&nbsp;y₂</span>
+                        <span class="text-wrapper-64"> - y₁</span>
+                        <span class="text-wrapper-64">,&nbsp;&nbsp;z₂</span>
+                        <span class="text-wrapper-64"> - z₁)</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="parapgraph">
+                    <div class="overlap-52">
+                      <div class="text-wrapper-93">→</div>
+                      <p class="text-wrapper-94">
+                        Now, let be PQ a vector in 3-space with initial point P (x₁, y₁, z₁) and terminal point Q (x₂,
+                        y₂, z₂). Then the components of its vector are:
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="lg-BG-5"></div>
+              <div class="element-8">
+                <div class="for-7">
+                  <div class="group-3">
+                    <div class="overlap-group-19">
+                      <div class="text-wrapper-90">→</div>
+                      <p class="PQ"><span class="text-wrapper-40">PQ</span> <span class="text-wrapper-64"> =</span></p>
+                    </div>
+                  </div>
+                  <div class="overlap-53">
+                    <p class="x-x-y-y">x₂ - x₁<br />y₂ - y₁</p>
+                    <div class="text-wrapper-95">[&nbsp;&nbsp;&nbsp;&nbsp;]</div>
+                  </div>
+                  <div class="text-wrapper-96">or</div>
+                </div>
+                <div class="overlap-54">
+                  <div class="for-8">
+                    <div class="overlap-55">
+                      <div class="text-wrapper-90">→</div>
+                      <p class="PQ">
+                        <span class="text-wrapper-40">PQ</span>
+                        <span class="text-wrapper-64"> = (x₂</span>
+                        <span class="text-wrapper-64"> - x₁</span>
+                        <span class="text-wrapper-64">,&nbsp;&nbsp;y₂</span>
+                        <span class="text-wrapper-64"> - y₁)</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="paragraph-2">
+                    <div class="overlap-56">
+                      <div class="text-wrapper-97">→</div>
+                      <p class="div-9">
+                        If a vector starts at a point other than the origin, you can still describe it by considering
+                        its position relative to the origin in other words, you can represent it using its component.<br /><br />Let
+                        be PQ a vector in 2-space with initial point P (x₁, y₁) and terminal point Q (x₂, y₂). Then the
+                        components of its vector are:
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="topic-name-2">
+            <div class="overlap-30">
+              <p class="text-wrapper-98">VECTORS WITH INITIAL POINT NOT ON THE ORIGIN</p>
+              <img class="lb-BG-2" src="lb-bg.svg">
+            </div>
+          </div>
+        </div>
+        <div id="lessonNo1-3" class="component-and">
+          <div class="element-9">
+            <p class="where-i-j-2">
+              <span class="span">where&nbsp;&nbsp;</span>
+              <span class="text-wrapper-17"
+                >i = (1, 0, 0),<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                j = (0, 1, 0),<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;k = (0, 0,
+                1)</span
+              >
+            </p>
+            <p class="IN-SPACE-component">
+              <span class="text-wrapper-22"><br></span>
+              <span class="text-wrapper-26">IN 3-SPACE<br /><br /></span>
+              <span class="text-wrapper-31">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+              <span class="text-wrapper-22">Component Form<br /></span>
+              <span class="text-wrapper-31"
+                >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
+              <span class="text-wrapper-17">&nbsp;&nbsp;v = (x, y, z)<br /></span>
+              <span class="text-wrapper-26"><br /></span>
+              <span class="text-wrapper-31">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+              <span class="text-wrapper-22">Standard Unit Form<br /></span>
+              <span class="text-wrapper-31"
+                >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span
+              >
+              <span class="text-wrapper-17"> v = xi + yj + zk</span>
+            </p>
+          </div>
+          <div class="element-10">
+            <div class="overlap-group-20">
+              <p class="where-i-j-3">
+                <span class="span">where</span>
+                <span class="text-wrapper-17"
+                  >&nbsp;&nbsp;&nbsp;&nbsp;i = (1, 0),<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  j = (0, 1)</span
+                >
+              </p>
+              <p class="vectors-in-space">
+                <span class="span">Vectors in 2-space and 3-space can be represented in two ways the </span>
+                <span class="text-wrapper-22">component form</span>
+                <span class="span"> and the </span>
+                <span class="text-wrapper-22">standard unit form.<br /><br /></span>
+                <span class="text-wrapper-26">IN 2-SPACE<br /><br /></span>
+                <span class="text-wrapper-31">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <span class="text-wrapper-22">Component Form<br /></span>
+                <span class="text-wrapper-31"
+                  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span
+                >
+                <span class="text-wrapper-17"> v = (x, y)<br /></span>
+                <span class="text-wrapper-26"><br /></span>
+                <span class="text-wrapper-31">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <span class="text-wrapper-22">Standard Unit Form<br /></span>
+                <span class="text-wrapper-31"
+                  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </span>
+                <span class="text-wrapper-17">v = xi + yj</span>
+              </p>
+            </div>
+          </div>
+          <div class="topic-name-2">
+            <div class="overlap-30">
+              <p class="text-wrapper-99">COMPONENT FORM AND STANDARD UNIT FORM</p>
+              <img class="lb-BG-2" src="lb-bg.svg">
+            </div>
+          </div>
+        </div>
+        
+        <div class="fixed-top-sidebarbg">
+          <div class="overlap-57">
+            <div class="subtopics-bg"></div>
+            <div class="TOP">
+              <div class="overlap-58">
+                <div class="r-DB"></div>
+                <div class="r-LB"></div>
+                <img class="NAME-geomentries" src="name-geomentries-1.png">
+                <div class="about">
+                  <div class="overlap-59">
+                    <img class="e-DB" src="e-db-1.svg">
+                    <div class="e-button">
+                      <div class="overlap-group-21">
+                        <img class="e-LB" src="e-lb-2.svg">
+                        <div class="text-wrapper-100">i</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="hamburger">
+                  <img class="line-5" src="line-3-2.svg">
+                  <img class="line-6" src="line-3-2.svg">
+                  <img class="line-7" src="line-3-2.svg">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="DEFAULT">
+          <script src="hide.js"></script>
+          <!-- Sidebar -->
+          <div class="Sidebar">
+            <!-- Sidebar Item -->
+            <div class="Sidebar_Item">
+              <div id="lesson1" class="Label" onclick="toggleVisibility('dropdown_1'); scrollToLesson('lessonNo1')"><span>1.</span> Vectors in 2-Space & 3-Space</div>
+            </div>
+            <!-- Sidebar Dropdown Assign different id per dropdown and put the dropdown bellow the item you want the dropdown in-->
+            <ul id="dropdown_1" class="subItems">
+              <div class="subItem_Holder">
+                <li id="lesson1-1" class="subItem" onclick="scrollToLesson('lessonNo1-1')">Vector Spaces</li>
+                <li id="lesson1-2" class="subItem" onclick="scrollToLesson('lessonNo1-2')">Vectors</li>
+                <li id="lesson1-3" class="subItem" onclick="scrollToLesson('lessonNo1-3')">Component Form and Standard Unit Form</li>
+                <li id="lesson1-4" class="subItem" onclick="scrollToLesson('lessonNo1-4')">Vectors with Initial Point Not on the Origin</li>
+                <li id="lesson1-5" class="subItem" onclick="scrollToLesson('lessonNo1-5')">Vector-Scalar Multiplication</li>
+                <li id="lesson1-6" class="subItem" onclick="scrollToLesson('lessonNo1-6')">Vector Operations in Rn</li>
+              </div>
+            </ul>
+
+            <!-- Sidebar Item -->
+            <div class="Sidebar_Item">
+              <div class="Label" onclick="toggleVisibility('dropdown_2')"><span>2.</span> Norm, Distance, & Dot Product</div>
+            </div>
+            <!-- Sidebar Dropdown Assign different id per dropdown and put the dropdown bellow the item you want the dropdown in-->
+            <ul id="dropdown_2" class="subItems">
+              <div class="subItem_Holder">
+                <li class="subItem">Vector Spaces</li>
+                <li class="subItem">Vectors</li>
+                <li class="subItem">Component Form and Standard Unit Form</li>
+                <li class="subItem">Vectors with Initial Point Not on the Origin</li>
+                <li class="subItem">Vector-Scalar Multiplication</li>
+                <li class="subItem">Vector Operations in Rn</li>
+              </div>
+            </ul>
+
+            <!-- Sidebar Item -->
+            <div class="Sidebar_Item">
+              <div class="Label"><span>3.</span> Orthogonality</div>
+            </div>
+
+            <!-- Sidebar Item -->
+            <div class="Sidebar_Item">
+              <div class="Label"><span>4.</span> Equations of Lines & Planes</div>
+            </div>
+
+            <!-- Sidebar Item -->
+            <div class="Sidebar_Item">
+              <div class="Label"><span>5.</span> Cross Product</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="button-quiz">
+          <div class="overlap-60"><div class="text-wrapper-106">Quiz</div></div>
+        </div>
+        <div class="TOPIC-i-II"><button class="text-wrapper-107" id="toggleLesson"><a href="topics.html">Plane Euclidean Geometry</a></button></div>
+        <div class="text-wrapper-108">: DISCUSSION</div>
+      </div>
+    </div>
+    <script src="./Sidebar_Actions.js"></script>
+  </body>
+</html>
